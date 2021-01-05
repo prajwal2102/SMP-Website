@@ -12,7 +12,8 @@
 
     <link rel="icon" href="img/favicon.ico" />
     <title>DAMP IIT Dharwad</title>
-    <!-- Bootstrap CSS -->
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script> <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/themify-icons.css" />
@@ -21,12 +22,16 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mystyles.css" />
+
+    <meta name="google-signin-client_id"
+      content="858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com">
   </head>
 
   <body style="background-color:  #f7f7f7;">
     <!--================ Start Header Menu Area =================-->
     <header class="header_area white-header">
       <div class="main_menu">
+
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -41,7 +46,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
               <ul class="nav navbar-nav menu_nav ml-auto">
-                <li class="nav-item    ">
+                <li class="nav-item ">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
 
@@ -103,10 +108,16 @@
                   </ul>
                 </li>
 
+                <li class="nav-item ">
 
+                  <div class="g-signin2 signIn-btn" id="signin-btn" data-onsuccess="onSignIn"></div>
+
+                  <div class="signOut-Btn" id="signout-btn" onclick="onSignOut()" style="display: none;">Sign Out</div>
+                </li>
                 <li class="nav-item    ">
                   <a class="nav-link backtosmp" href="./../index.html">Go To SMP Website -> </a>
                 </li>
+
               </ul>
             </div>
           </div>
@@ -114,6 +125,7 @@
       </div>
     </header>
     <!--================ End Header Menu Area =================-->
+
 
     <!--================Home Banner Area =================-->
     <section class="banner_area">
@@ -147,11 +159,11 @@
             <div class="content_wrapper">
               <h4 class="title">Course Code</h4>
               <div class="content" id="coursecode">
-              
+
               </div>
               <h4 class="title">Course Name</h4>
               <div class="content" id="coursename">
-              
+
               </div>
               <h4 class="title">Name of The Instructor</h4>
               <div class="content" id="instructor">
@@ -172,7 +184,7 @@
                 </ul>
               </div>
 
-              
+
 
               <h4 class="title">
                 Need for the course:
@@ -183,7 +195,7 @@
 
               </div>
 
-             
+
 
             </div>
           </div>
@@ -212,6 +224,7 @@
     <!--================ End footer Area  =================-->
 
 
+    <script src="js/general.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>

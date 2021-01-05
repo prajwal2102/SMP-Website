@@ -87,7 +87,12 @@ getcourses = () => {
   var no = 0;
 
   for (no = 0; no < sem.length; no++) {
-    fetch("api/Courses?sem=" + sem[no].toString() + "&type=" + type)
+    fetch(
+      "http://localhost:5000/damp/api/Courses?sem=" +
+        sem[no].toString() +
+        "&type=" +
+        type
+    )
       .then((response) => {
         return response.json();
       })

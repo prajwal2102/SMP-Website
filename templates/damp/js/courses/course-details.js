@@ -10,7 +10,7 @@ geturlparm = () => {
 getcoursedetails = () => {
   var id = geturlparm();
 
-  fetch("api/CourseDetails?id=" + id)
+  fetch("http://localhost:5000/damp/api/CourseDetails?id=" + id)
     .then((response) => {
       return response.json();
     })

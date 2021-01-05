@@ -34,7 +34,7 @@ getcourses = () => {
   var i = 3;
   for (k = 0; k < 6; k++) {
     fetch(
-      "api/Courses?sem=" +
+      "http://localhost:5000/damp/api/Courses?sem=" +
         (k + 3).toString() +
         "&type=" +
         type
@@ -44,37 +44,37 @@ getcourses = () => {
       })
       .then((res) => {
         var item = res.data;
-        
+
         if (item.length) {
-            item.map((item, i) => {
-              document.getElementById(field_name[res.semester - 3]).innerHTML +=
-                `
+          item.map((item, i) => {
+            document.getElementById(field_name[res.semester - 3]).innerHTML +=
+              `
                     <div class="single_course">
 
                 <a href="course-details.html?id=` +
-                item._id.$oid.toString() +
-                `">
+              item._id.$oid.toString() +
+              `">
                   <div class="course_content" >
                     <span class="tag mb-4 d-inline-block">Semester ` +
-                item.semester +
-                `</span>
+              item.semester +
+              `</span>
                     <h4 class="mb-3" style="height:48px;">
                     ` +
-                item.courseName +
-                `
+              item.courseName +
+              `
                       
                     </h4>
                    
                     <p>
                       Instructor: ` +
-                item.instructor +
-                `
+              item.instructor +
+              `
                     </p>
                   </div>
 
                 </a>
               </div>`;
-            });
+          });
         }
       });
   }

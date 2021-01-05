@@ -22,11 +22,11 @@
   max-width: 100px;
 }
 
-.backtosmp{
-  color:#fdc632!important;
+.backtosmp {
+  color: #fdc632 !important;
 }
-.backtosmp:hover{
-  color:white!important
+.backtosmp:hover {
+  color: white !important;
 }
 .gen-block-container {
   padding-top: 3%;
@@ -169,3 +169,23 @@
   }
 }
 
+.signOut-Btn {
+  background-color: #ff6700 !important;
+  color: white;
+  font-size: 20px;
+  border-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 15px 0px;
+  cursor: pointer;
+}
+.signOut-Btn:hover{
+  background-color: white !important;
+  color: #ff6700;
+  border-color: #ff6700;
+}
+
+.signIn-btn{
+  margin: 22px 0px;
+}

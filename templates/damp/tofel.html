@@ -12,7 +12,8 @@
 
     <link rel="icon" href="img/favicon.ico" />
     <title>DAMP IIT Dharwad</title>
-    <!-- Bootstrap CSS -->
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script> <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/themify-icons.css" />
@@ -21,13 +22,15 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mystyles.css" />
+
+    <meta name="google-signin-client_id"
+      content="858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com">
   </head>
 
   <body>
     <!--================ Start Header Menu Area =================-->
     <header class="header_area white-header">
       <div class="main_menu">
-
 
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container">
@@ -43,7 +46,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
               <ul class="nav navbar-nav menu_nav ml-auto">
-                <li class="nav-item    ">
+                <li class="nav-item ">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
 
@@ -104,11 +107,17 @@
                     </li>
                   </ul>
                 </li>
-                <li class="nav-item">
+
+                <li class="nav-item ">
+
+                  <div class="g-signin2 signIn-btn" id="signin-btn" data-onsuccess="onSignIn"></div>
+
+                  <div class="signOut-Btn" id="signout-btn" onclick="onSignOut()" style="display: none;">Sign Out</div>
+                </li>
+                <li class="nav-item    ">
                   <a class="nav-link backtosmp" href="./../index.html">Go To SMP Website -> </a>
                 </li>
 
-              
               </ul>
             </div>
           </div>
@@ -116,6 +125,7 @@
       </div>
     </header>
     <!--================ End Header Menu Area =================-->
+
 
     <!--================Home Banner Area =================-->
     <section class="banner_area">
@@ -262,6 +272,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/general.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
