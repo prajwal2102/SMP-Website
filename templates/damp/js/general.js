@@ -13,6 +13,7 @@ function onSignIn(googleUser) {
     }
       document.getElementById("signin-btn").style.display = "none";
   document.getElementById("signout-btn").style.display = "block";
+  
 }
 
 function onSignOut() {
@@ -20,6 +21,7 @@ function onSignOut() {
   auth2.signOut().then(function () {
       console.log("User signed out.");
       document.getElementById("signin-btn").style.display = "block";
-      document.getElementById("signout-btn").style.display = "none";
+    document.getElementById("signout-btn").style.display = "none";
+    
   });
 }

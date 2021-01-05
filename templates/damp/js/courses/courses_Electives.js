@@ -106,7 +106,7 @@ getcourses = () => {
 
                 <a href="course-details.html?id=` +
               item._id.$oid.toString() +
-              `">
+              `&type=Elect">
                   <div class="course_content" >
                     <span class="tag mb-4 d-inline-block">Elective </span>
                     <h4 class="mb-3" style="height:48px;">

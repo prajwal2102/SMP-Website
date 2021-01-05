@@ -53,7 +53,7 @@ getcourses = () => {
 
                 <a href="course-details.html?id=` +
               item._id.$oid.toString() +
-              `">
+              `&type=Core">
                   <div class="course_content" >
                     <span class="tag mb-4 d-inline-block">Semester ` +
               item.semester +

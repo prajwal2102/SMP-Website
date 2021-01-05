@@ -170,7 +170,7 @@
 }
 
 .signOut-Btn {
-  background-color: #ff6700 !important;
+  background-color: #fdc632 !important;
   color: white;
   font-size: 18px;
   border-color: white;
@@ -180,12 +180,92 @@
   margin: 18px 0px;
   cursor: pointer;
 }
-.signOut-Btn:hover{
+.signOut-Btn:hover {
   background-color: white !important;
-  color: #ff6700;
-  border-color: #ff6700;
+  color: #fdc632;
+  border-color: #fdc632;
 }
 
-.signIn-btn{
+.signIn-btn {
   margin: 22px 0px;
+}
+
+.review-form {
+  width: 100%;
+}
+.reviewText {
+  width: 90%;
+  height: 150px;
+  border-color: black;
+  color: #fdc632;
+  font-size: 16px;
+  border-radius: 10px;
+  border-width: 2px;
+  outline: none;
+  width: 100%;
+}
+.reviewText:hover {
+  border-color: #fdc632;
+  color: black;
+}
+.reviewText:focus {
+  border-color: #fdc632;
+  color: black;
+  outline: none;
+}
+.reviewBtn {
+  padding: 10px 20px;
+  margin: 0px 20px;
+  text-align: center;
+  border-color: #fdc632;
+  color: white;
+  background-color: #fdc632;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  border-style: solid;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+}
+.reviewBtn:hover {
+  color: #fdc632;
+  background-color: white;
+}
+.review {
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px 20px;
+  outline: none;
+  width: 95%;
+  background-color:#fdc6322e;
+  color: black;
+  
+}
+
+.reviewer-info {
+  display: inline-flex;
+  width: 100%;
+}
+.reviewer-name {
+  font-weight: 500;
+  width: 100%;
+  display: inline-flex;
+}
+.time {
+  font-size: 12px;
+}
+.review-text {
+  margin: 20px;
+  max-height: 250px;
+  overflow: auto;
+}
+.reviewer-img-parent {
+}
+.reviewer-img {
+  width: 50px;
+  border-radius: 50%;
+  margin: 0px 7px;
+}
+.reviewer-name-parent {
+  margin: 0px 10px;
 }

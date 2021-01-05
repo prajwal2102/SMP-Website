@@ -23,7 +23,16 @@
     "summary": [
       "Basics of semiconductor devices, gate drives for BJT, MOSFET and IGBT, heat sink selection, snubber circuits, non-isolated converters like buck, boost and buck-boost converters, isolated converters like forward, push pull, half bridge, full bridge and fly back, design of magnetics for inductors and transformers, inverters, PWM generation - SPWM, space vector PWM, dq axis theory for 2 and 3 phase applications. Introduction to electric drives, and speed control of electric machines. Design examples like, EV Battery chargers, and grid connected PV inverter."
     ],
-    "need": "This is an elective course for Power Systems Spine"
+    "need": "This is an elective course for Power Systems Spine",
+    "reviews": [
+      {
+        "name": "Putti Gowtham Sai",
+        "email": "190010036@iitdh.ac.in",
+        "review": "this is good course",
+        "time": "06-January-2021 00:50 ",
+        "imgUrl": "https://lh3.googleusercontent.com/a-/AOh14Gi3rxavPrT5G1wnDLCEtlNjf19GzNl05qfbAvF9ow=s96-c"
+      }
+    ]
   },
   {
     "_id": {
