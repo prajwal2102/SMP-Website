@@ -1,0 +1,332 @@
+[
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec24"
+    },
+    "courseCode": "EE 201",
+    "courseName": "Data Analysis",
+    "semester": "3",
+    "instructor": "Prof.Naveen M B Prof.Sudhanshu Shukla",
+    "summary": [
+      "The role of statistics. Graphical and numerical methods for describing and summarising data. Probability. Population distributions. Sampling variability and sampling distributions. Estimation using a single sample. Hypothesis testing a single sample. Comparing two populations or treatments. Simple linear regression and correlation. Case studies."
+    ],
+    "need": "Analyzing data and interpreting results are integral  part of almost every research and it finds extensive use in industry as well. From Machine learning to Finance, its applications are enormous."
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec25"
+    },
+    "courseCode": "HS 201",
+    "courseName": "Economics",
+    "semester": "3",
+    "instructor": "Prof. Gopal Parashari",
+    "summary": [
+      "Basic economic problems. resource constraints and Welfare maximizations. Nature of Economics: Positive and normative economics; Micro and macroeconomics, Basic concepts in economics. The role of the State in economic activity; market and government failures;",
+      "New Economic Policy in India. Theory of utility and consumer’s choice. Theories of demand, supply and market equilibrium. Theories of firm, production and costs. Market structures. competition, oligopoly, monopoly. An overview of macroeconomics, measurement and determination of national income. Consumption, investments. Commercial Relationship between money, output and prices.",
+      "Inflation - causes, consequences and remedies.",
+      "International trade, foreign exchange and balance of payments, stabilization policies : Monetary, Fiscal and Exchange rate policies. "
+    ],
+    "need": "This course is a basic course on economics and useful for all students of B.Tech"
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec26"
+    },
+    "courseCode": "ME 201",
+    "courseName": "Engineering Mechanics",
+    "semester": "3",
+    "instructor": "Prof.TPG, PS",
+    "summary": [
+      "Module 1: Introduction to Engineering Mechanics",
+      "Module 2: Friction",
+      "Module 3: Basic Structural Analysis",
+      "Module 4: Centroid and Centre of Gravity",
+      "Module 5: Virtual Work and Energy Method",
+      "Module 6: Particles dynamics",
+      "Module 7: Introduction to Rigid body dynamics",
+      "Module 8: Mechanical Vibrations"
+    ],
+    "need": "This is a fundamental and core course which is essential for appreciating the influence of forces and force systems on particles/rigid bodies for all mechanical engineering students. This basic engineering course forms the base on which other courses like Mechanics of Solids and Theory of Machines."
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec27"
+    },
+    "courseCode": "ME 202",
+    "courseName": "Engineering Materials",
+    "semester": "3 ",
+    "instructor": "Prof.RK",
+    "summary": [
+      "Economic, Environmental and Societal Issues in Materials Science & Engineering Basic Materials Science",
+      "Material properties",
+      "Failure.",
+      "Strengthening mechanisms",
+      "Aluminium alloys",
+      "Copper alloys",
+      "Ferrous Alloys (Steels)",
+      "Material Selection",
+      "Ceramics",
+      "Polymers",
+      "Composites"
+    ],
+    "need": " Course in Engineering materials is required to be the course comprehensive and advanced as these materials are being used in Mechanical industries."
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec28"
+    },
+    "courseCode": "ME 203",
+    "courseName": "Fluid Mechanics",
+    "semester": "3",
+    "instructor": "Prof.DVP, SVP",
+    "summary": [
+      "Introduction",
+      "Fluid Statics",
+      "Elementary Fluid Dynamics",
+      "Fluid Kinematics",
+      "Integral approach",
+      "Differential approach",
+      "Viscous flow",
+      "Dimensional analysis and modelling",
+      "Viscous Flow in Pipes",
+      "Flow Over Immersed Bodies"
+    ],
+    "need": "This is a fundamental and core course which is essential for appreciating the fluid flow which is of utmost importance for mechanical B.Tech. Major."
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec29"
+    },
+    "courseCode": "ME 205",
+    "courseName": "Machine Drawing and 3D Modelling Laboratory",
+    "semester": "3",
+    "instructor": "Prof.SD",
+    "summary": [
+      "Introduction",
+      "Detachable Fasteners",
+      "Permanent Fastenings",
+      "Assembly Drawings",
+      "Tool Drawings",
+      "Production Drawings"
+    ],
+    "need": "Exposure to Engineering Graphics Laboratory (ME 111)"
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec2a"
+    },
+    "courseCode": "ME 207",
+    "courseName": "Thermodynamics",
+    "semester": "3",
+    "instructor": "Prof.SSR",
+    "summary": [
+      "Thermodynamic Systems, properties & state, process & cycle Heat & Work",
+      "Properties of pure substance",
+      "First law",
+      "Second Law of Thermodynamics",
+      "Irreversibility and availability",
+      "Thermodynamic relations",
+      "Thermodynamic Cycles"
+    ],
+    "need": "This is a fundamental and core course which is essential for appreciating the thermal and fluid sciences and basics of all fluid and heat transfer."
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec2b"
+    },
+    "courseCode": "ME 301",
+    "courseName": "Heat Transfer",
+    "semester": "5",
+    "instructor": "Prof.SVP",
+    "summary": [
+      "Introduction",
+      "Conduction",
+      "Radiation",
+      "Forced Convection",
+      "Natural Convection",
+      "Heat Exchangers",
+      "Condensation and Boiling",
+      "Mass Transfer"
+    ],
+    "need": "This is a fundamental and core course which is essential for appreciating the modes of heat transfer essential for functionality of the mechanical equipment."
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec2c"
+    },
+    "courseCode": "ME 303",
+    "courseName": "Kinematics and Dynamics of Machines",
+    "semester": "5",
+    "instructor": "Prof.SD",
+    "summary": [
+      "Introduction to Mechanisms. Position, velocity and acceleration analysis. Design of Cam Follower Mechanisms. Gear tooth profiles, spur gears and helical gears. Epicyclic Gear Trains. Dynamic Analysis of Mechanisms. Balancing. Analysis and Applications of Discrete and Continuous System Vibration."
+    ],
+    "need": "Advanced differential equations is needed in many engineering branches"
+  },
+  {
+    "_id": {
+      "$oid": "5f8ac915adabf631d887ec2d"
+    },
+    "courseCode": "ME 305",
+    "courseName": "Manufacturing Processes II",
+    "semester": "5",
+    "instructor": "Not Decided",
+    "summary": [
+      "Material Removal Processes: Mechanics of Machining, tool geometry and materials, chip formation, tool temperature, tool wear, tool life, surface finish, machinability. Optimization of machining processes. Machine Tools: Generation of surfaces by machining, basic operations on shaping, slotting and planning machines, lathe, drilling and boring machines and grinding machines. Process Parameters and setups. Production Machines: Capstan and turret lathes, automats, broaching machines, centreless grinding machines. Special purpose machines for thread cutting and gear cutting (hobbing and shaping). Finishing processes honing, laping burnishing and deburring. Introduction to modern machining processes: EDM, ECM, LASER, Jigs and fixtures, principles of location and clamping, synthesis of simple jigs and fixtures. Principles of assembly engineering, theory of dimensional chains, fully interchangeable and selective assembly. Introduction to Numerical Control."
+    ],
+    "need": "NIL"
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb82"
+    },
+    "courseCode": "ME 204 ",
+    "courseName": "Manufacturing Processes - I",
+    "semester": "4",
+    "instructor": "Prof. Somashekhara",
+    "summary": [
+      "Casting processes",
+      "Joining processes",
+      "Bulk and Sheet Forming processes",
+      "Powder processing",
+      "Polymers and Composites",
+      "Advanced processes"
+    ],
+    "need": "This is core course in the manufacturing stream of the  Mechanical Engineering undergraduate curriculum."
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb83"
+    },
+    "courseCode": "ME 206",
+    "courseName": "Mechanics of Materials",
+    "semester": "4",
+    "instructor": "Prof. Amar Gaonkar, Prof. P Seshu",
+    "summary": [
+      "Basics: Fundamentals of mechanics of deformable solids",
+      ": Torsion: torsion of circular cross-section shafts",
+      ": Bending: Euler – Bernoulli model",
+      ": Combined stresses:",
+      "State of stress and strain at a point"
+    ],
+    "need": "This is a fundamental core course which introduces mechanics of deformable solids. The course exposes to concepts of stiffness, strength and stability under basic loadings. This is of utmost importance for design of machine elements."
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb84"
+    },
+    "courseCode": "ME 208",
+    "courseName": "Mechanical Measurements",
+    "semester": "4",
+    "instructor": "Prof. Sudheer",
+    "summary": [
+      "Introduction",
+      "Temperature measurement",
+      "Pressure measurement",
+      "Flow measurement:",
+      "Strain measurement",
+      "Force and torque measurement",
+      "Measurement of motion",
+      "Signal conditioning:",
+      "Sampling, and data acquisition"
+    ],
+    "need": "This is a fundamental measurements course which is essential  for appreciating the measurement of all mechanical parameters."
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb85"
+    },
+    "courseCode": "MA 206",
+    "courseName": "Introduction to Numerical Methods (2 nd half semester)",
+    "semester": "4",
+    "instructor": "Prof. Sagnik Sen",
+    "summary": [
+      "Interpolation by polynomials, divided differences, error\r\nof the interpolating polynomial, piecewise linear and\r\ncubic spline interpolation.",
+      "Numerical integration, composite rules, error formulae.\r\nSolution of a nonlinear equation, bisection and secant\r\nmethods. Newton’s method, rate of convergence, solution\r\nof a system of nonlinear equations, ",
+      "Numerical solution of ordinary differential equations,\r\nEuler and Runge-Kutta methods, multi-step methods,\r\npredictor-corrector methods, order of convergence, ",
+      "Finite difference methods, numerical solutions of elliptic,\r\nparabolic, and hyperbolic partial differential equations.\r\nExposure to MATLAB\r"
+    ],
+    "need": "This is a first course in numerical methods and introduces topics like interpolation, numerical integration and solution of nonlinear equations. These topics, along with numerical linear algebra, formulate the basis for computer aided engineering (CAE), therefore, any student motivated to learn and work in CAE would benefit from this course. Also this course serves as a prerequisite for more advanced courses like finite element, finite volume etc. where the ideas formulated in this course is used routinely."
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb86"
+    },
+    "courseCode": "MA 208",
+    "courseName": "Introduction to Numerical Linear Algebra (1 st half semester)",
+    "semester": "4",
+    "instructor": "Prof. Amlan Barua",
+    "summary": [
+      "Vector and Matrix Norms, Gram\r\nSchmidt Orthogonalization, Singular\r\nValue Decomposition, QRfactorization,\r\nHouseholder Triangularization.\r\nFloating point number system,\r\nCondition number and Stability,\r\nStability of Back substitution, Gauss\r\nElimination and Householder methods\r\nNumerical techniques for finding\r\neigenvalues, Rayleigh Quotient, QR\r\nmethods, Divide and Conquer strategies\r\nKrylov subspace techniques, GMRES\r\nand Conjugate Gradient (c)\r\nBackpropagation, Initialization,\r\nTraining and Validation, Parameter\r\nEstimation - MLE, MAP, Bayesian\r\nEstimation"
+    ],
+    "need": "This course will enable a student to gain advanced knowledge on the numerical perspectives of linear algebra. The potential applications can be in large scale computations in engineering"
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb87"
+    },
+    "courseCode": "EE 303 ",
+    "courseName": "Control Systems",
+    "semester": "4",
+    "instructor": "Prof. Ameer Mulla",
+    "summary": [
+      "Basic concepts",
+      "Modeling and representations of control systems",
+      "Control hardware and their models",
+      "Performance and stability",
+      "Basic modes of feedback control",
+      " Root locus",
+      " Frequency-domain techniques",
+      "Compensator design",
+      "State-space concepts"
+    ],
+    "need": "Control Systems are ubiquitous. Each discipline of engineering need to understand the concept of control systems in one form or the other. This course introduces mathematical modeling of systems, stability analysis, stabilization and techniques of making systems work as desired. This course makes the students appreciate the inherent similarities in the working principles of electrical and mechanical systems. The concepts of control systems are widely used in numerous field like industrial automation, robotics, automobiles, space exploration, military applications, cyber-physical systems and so on."
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb88"
+    },
+    "courseCode": "ME 302",
+    "courseName": "Applied Thermodynamics",
+    "semester": "6",
+    "instructor": "Prof. R Santhosh",
+    "summary": [
+      "Introduction to the Course, General Scheme of things,\r\nEnergy Resources, Heat Engines. Recap of I law for\r\nClosed and Open Systems. Classification of cycles as\r\nOpen/Closed, Refrigeration/Power, Multicomponent/ Single- component, Internal combustion/\r\nexternal combustion, etc. Performance parameters:\r\nNetwork, thermal efficiency, heat rate, specific fuel\r\nconsumption, work ratio, specific output, mean\r\neffective pressure, volumetric efficiency, COP,\r\nrefrigeration effect. Carnot vs. other cycles. General\r\nstoichiometry and definition of terms (rich mixture,\r\nlean mixtures). Heat of formation, Heat of reaction,\r\nCalorific Value of fuel, Estimation methods for\r\nCalorific values, Exhaust Gas Analysis, Orsat\r\nApparatus.\r\nOtto Cycles, Diesel Cycles, Air-standard cycles and\r\nActual cycles, Dual cycle, p-theta diagram.\r\nCombustion and knocking in SI engine. Combustion\r\nand knocking in CI engine. Carburetion. Brayton\r\ncycle with explanation of various terms\r\nModifications of Brayton cycle. Rankine cycle.\r\nModifications to Rankine cycle. Feed Water Heaters\r\nand analysis. Moisture separators/ application of\r\nRankine to Nuclear power plants. Vapour\r\nCompression and Reverse Brayton Cycles Vapour\r\nAbsorption Cycles. Psychrometry. Reciprocating,\r\nrotary and centrifugal Compressors.\r\nGas Power Cycles: Simple gas turbine cycle - single\r\nand twin shaft arrangements, intercooling, reheating,\r\nregeneration, closed cycles, optimal performance of\r\nvarious cycles, Ideal vs Real cycles; Jet Propulsion:\r\nturbojet, turboprop, turbofan, ramjet, thrust and\r\npropulsive efficiency; Rocket Propulsion;\r\nDirect Energy Conversion: thermionic and\r\nthermoelectric converters, photovoltaic generators,\r\nMHD generators, fuel cells."
+    ],
+    "need": "This is a fundamental course which is essential for appreciating the engineering drawings and compulsory for all B. Tech. majors."
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb89"
+    },
+    "courseCode": "ME 304",
+    "courseName": "Machine Design",
+    "semester": "6",
+    "instructor": "Prof. Shrikanth V",
+    "summary": [
+      "Introduction to Design Review of Failure theories\r\n(Static and Fatigue) ",
+      "Shafts and couplings:",
+      " Bearings",
+      "Gears:",
+      " Design of Springs",
+      "Design of Belts",
+      "Design of fasteners, rivets and dowel pins",
+      "Design of joints:"
+    ],
+    "need": "This is a fundamental course which is essential for appreciating the procedure in designing machine elements ."
+  },
+  {
+    "_id": {
+      "$oid": "5ff069f718edf4553894fb8a"
+    },
+    "courseCode": "CH 301",
+    "courseName": "Environmental Studies",
+    "semester": "4",
+    "instructor": "Prof. B L Tembe",
+    "summary": [
+      "Module A: Natural Resources",
+      "Module B: Air Pollution\r",
+      "Module C: Water Treatment","Module D: Solid Waste Management and Climate\r\nChange\r","Module E: Sociology/Environmentalism","Module F: Economics","Module G: Philosophy","Module H: Field work and project"],
+                      "need": "None"
+    }
+  ]

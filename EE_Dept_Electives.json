@@ -1,0 +1,230 @@
+[
+  {
+    "_id": {
+      "$oid": "5ff0645e18edf4553894fb69"
+    },
+    "courseCode": "EE 406",
+    "courseName": "VLSI Design",
+    "semester": "Autumn",
+    "instructor": "Prof. NK",
+    "summary": [
+      "Review of MOS transistor models, Technology scaling, CMOS logic families including static, dynamic and dual rail logic. Integrated circuit layout; design rules, parasitics. low power design, high performance design, logical effort, Interconnect aware design, clocking techniques. VLSI design: data and control path design, floor planning, Design Technology: introduction to hardware description languages(VHDL), logic, circuit and layout verification"
+    ],
+    "need": "Digital integrated circuits have revolutionized computers and the way we control and design electronic systems. This is a advanced course on CMOS digital integrated circuits, which gives exposure to high performance VLSI design in CMOS technologies."
+  },
+  {
+    "_id": {
+      "$oid": "5ff0645e18edf4553894fb6a"
+    },
+    "courseCode": "EE 425",
+    "courseName": "Advanced Power Electronics",
+    "semester": "Autumn",
+    "instructor": "Prof. Abhijith",
+    "summary": [
+      "Basics of semiconductor devices, gate drives for BJT, MOSFET and IGBT, heat sink selection, snubber circuits, non-isolated converters like buck, boost and buck-boost converters, isolated converters like forward, push pull, half bridge, full bridge and fly back, design of magnetics for inductors and transformers, inverters, PWM generation - SPWM, space vector PWM, dq axis theory for 2 and 3 phase applications. Introduction to electric drives, and speed control of electric machines. Design examples like, EV Battery chargers, and grid connected PV inverter."
+    ],
+    "need": "This is an elective course for Power Systems Spine"
+  },
+  {
+    "_id": {
+      "$oid": "5ff0645e18edf4553894fb6b"
+    },
+    "courseCode": "EE 403",
+    "courseName": "Power System Dynamics and Control",
+    "semester": "Autumn",
+    "instructor": "Pratyasa Bhui",
+    "summary": [
+      "Modelling of Synchronous Machines, Modelling of Exciters, Small Signal Stability Analysis, Modelling of Turbine and Governors, Simulation of Power System Dynamic Response, Improvement of Stability, Sub-synchronous Oscillations."
+    ],
+    "need": "This is an elective course for Power Systems Spine"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d0"
+    },
+    "courseCode": "EE 408",
+    "courseName": "Neural Networks and Deep Learning",
+    "instructor": "Prof. S R M Prasanna",
+    "summary": [
+      "Introduction to Artificial Neural Networks (ANN) and Deep Learning (DL)",
+      "Feedforward Neural Networks (FFNN)",
+      "Feedback Neural Networks (FBNN)",
+      "Competitive learning Neural Networks (CLNN)",
+      "Deep Learning (DL) Architectures",
+      "Applications of DL"
+    ],
+    "need": "This course aims at providing an overview to the neural networks and deep learning areas. NNDL being an application area of probability, pattern recognition and machine learning, the same will be suitable for both electrical engineering and computer science and engineering students. The course contents include introduction to review of key neural networks concepts, limitations of them, detailed study of mostly deep architectures. Comparison of NN and DL architectures on different applications like speech processing, image processing and NLP.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d1"
+    },
+    "courseCode": "EE 409",
+    "courseName": "Speech Processing",
+    "instructor": "Prof. S R M Prasanna",
+    "summary": [
+      "Introduction",
+      "Short-term Fourier transform (STFT)",
+      "Cepstrum analysis",
+      "Linear Prediction (LP) analysis",
+      "Sinusoidal analysis",
+      "Applications"
+    ],
+    "need": "This course aims at providing an overview to the speech processing area. Speech processing being an application area of probability, signal processing and pattern recognition, the same will be suitable for both electrical engineering and computer science and engineering students. The course contents include introduction to speech processing, speech signal processing methods like short term Fourier transform, Cepstral analysis, linear prediction analysis, sinusoidal analysis. Some of the applications like speech recognition and speech synthesis will also be taught.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d2"
+    },
+    "courseCode": "EE 428",
+    "courseName": "Neural Networks and Deep Learning Lab",
+    "instructor": "Prof. S R M Prasanna",
+    "summary": [
+      "The lab will closely follow the theory course. The idea is to have the\r\nstudents implement the basic algorithms on different topics studied in\r\nthe NNDL theory course. "
+    ],
+    "need": "NNDL Laboratory is important to reinforce different concepts that will be studied as part of the theory course.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d3"
+    },
+    "courseCode": "EE 414",
+    "courseName": "Speech Processing lab",
+    "instructor": "Prof. S R M Prasanna",
+    "summary": [
+      "The lab will closely follow the theory course. The idea is to have the students\r\nimplement the basic algorithms on different topics studied in the speech\r\nprocessing theory course. "
+    ],
+    "need": "The lab will closely follow the theory course. The idea is to have the students implement the basic algorithms on different topics studied in the speech processing theory course.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d4"
+    },
+    "courseCode": "EE 404",
+    "courseName": "Wireless Communications",
+    "instructor": "Prof. Naveen M. B",
+    "summary": [
+      "Review of fundamentals in probability theory,\nrandom processes, spectral analysis of deterministic\nand random signals; review of digital modulation\nschemes, optimal receiver design under additive\nwhite Gaussian noise (AWGN) and error rate\nperformance; orthogonal frequency division\nmultiplexing (OFDM); channel modeling, capacity\nand diversity techniques in wireless communication;\nmulti-input multi-output (MIMO) systems and space\ntime block codes (STBC); cellular communication\nsystems, multiple-access and interference\nmanagement. "
+    ],
+    "need": "course This is an elective course for Communications spine.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d5"
+    },
+    "courseCode": "EE 406",
+    "courseName": "VLSI Technology",
+    "instructor": "Prof. Ruma Ghosh",
+    "summary": [
+      "Introduction on VLSI Design",
+      "Crystal growth techniques ",
+      "Epitaxy",
+      "Oxidation ",
+      "Doping",
+      "Lithography",
+      "Etching",
+      "Plasma Deposition Process",
+      "Metallization",
+      "IC BJT"
+    ],
+    "need": "VLSI is the process of integrating millions of components (transistors, resistors etc.) in a single small chip. This course introduces different concepts related to the processes and steps involved in fabrication of electronic devices and integrated circuits. This course develops an understanding of the limitations and strength of different fabrication techniques which in turn affect the device performances",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d6"
+    },
+    "courseCode": "EE 202",
+    "courseName": "Analog circuits",
+    "instructor": "Prof. Naveen K",
+    "summary": [
+      "Review of Single stage amplifiers and differential\r\namplifier",
+      "Cascode amplifiers",
+      " 2 stage amplifiers (opamp) and its stability and\r\ncompensation",
+      "NMOS output and PMOS output voltage regulators",
+      "Current and voltage references",
+      "Opamp based circuits\r",
+      "Lab component "
+    ],
+    "need": "This is a elective course which introduces advanced topics in analog circuits, amplifiers and their applications. This course will give the basis for advanced courses in VLSI, and microelectronics specializations.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d7"
+    },
+    "courseCode": "EE 426",
+    "courseName": "Optimization Theory and Algorith",
+    "instructor": "Prof. Rajshekhar Bhat",
+    "summary": [
+      "Introduction",
+      "Convex Sets",
+      "Convex functions",
+      "Convex Optimization problems",
+      "Duality and KKT Conditions",
+      "Algorithms"
+    ],
+    "need": "This course is one the most important ones for conducting research on wireless communications, machine learning and allied fields. The concepts taught in the course are very generic and they will be useful to a wide set of audience",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d8"
+    },
+    "courseCode": "EE 304",
+    "courseName": "Robotics",
+    "instructor": "Prof. Sangamesh Deepak",
+    "summary": [
+      "Introduction",
+      "Actuators and Drives",
+      "Sensors and control components",
+      "Robot Mechanisms",
+      "Planar Kinematics",
+      "Differential motion",
+      "Mechanics of Robots",
+      "Inverse kinematics and trajectory generation",
+      "Concepts of Control",
+      "Advanced topics and case studies",
+      "Demonstrations and assignments using MATLAB\r\nand ARM based experimental set-ups"
+    ],
+    "need": "Robotics are being used in the industries for more than two decades now. With decreasing cost of Electronics, computational resources, now a day's robots are being used, now a day, by not only in industries, but also in the fields of medicine, prosthesis, home assistance, agriculture and so on. Even after the wide-spread use, the challenges in the field of Robotics are far from over and a wide range of problems demanding research in this field are still open. Due to the blend of immediate applications as well as scope of research, a course on Robotics is useful for students who will join the industries as well as those who wish to pursue research in this field.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60d9"
+    },
+    "courseCode": "EE 432",
+    "courseName": "Information Theory",
+    "instructor": "Prof.Bharath B N",
+    "summary": [
+      "Introduction",
+      "Introduction to basic tools and concepts in\r\ninformation theory",
+      " Source coding: ",
+      " Statistics and information theory",
+      "Channel capacity",
+      "Continuous channel case",
+      "Introduction to Kolmogorov Complexity"
+    ],
+    "need": "Information theory is a fundamental tool in communications and computer science fields in particular, and statistics in general. In the recent times, it has been used as tools in machine learning theory. The course aims to develop these tools in a general context with historical motivation to the subject.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cc6091f50c3aa8bb60da"
+    },
+    "courseCode": "EE 434",
+    "courseName": "Modeling And control of Renewable energy Resources",
+    "instructor": "Prof.Abhijit K",
+    "summary": [
+      "Microgrids and distributed generation;\r\nIntroduction to renewable energy\r\ntechnologies; electrical systems and\r\ngenerators used in wind energy conversion\r\nsystems, diesel generators, combined heat\r\ncycle plants, inverter based generation, solar\r\nPV based systems, fuel cell and aquaelectrolyzer, battery and flywheel based\r\nstorage system; Voltage and frequency\r\ncontrol in a microgrid; Grid connection\r\ninterface issues."
+    ],
+    "need": "This a core course for MS with specialization in Power and Energy Systems.",
+    "semester": "Spring"
+  }
+]

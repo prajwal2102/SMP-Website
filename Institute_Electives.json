@@ -1,0 +1,73 @@
+[
+  {
+    "_id": {
+      "$oid": "5fe77ffe2e47d2042cf0ca8f"
+    },
+    "courseCode": "PH 402",
+    "courseName": "Astrophysics for Engineers",
+    "semester": "None",
+    "instructor": "Prof. D. Narasimha",
+    "summary": [
+      "a. An inventory of the Universe, b. Celestial sphere, Coordinates c. Units, sizes, masses and distance scale",
+      "Electromagnetic spectrum a. Radio, Microwave, Infrared, Optical, X-ray and Gamma Ray b. Telescopes and Detectors",
+      "Stars A. General a. Sun, Planets, (Earth) b. Mass, Radius, Luminosity, Temperature, Chemistry, Age and Types of stars c. Hertzsprung-Russell Diagram d. Birth and Evolution of stars c. Limits on Mass - Quantum mechanism at large scale: Brown Dwarf B: Structure of a star: a. Virial Theorem (qualitative) b. Nuclear Energy, Pressure, Interaction with radiation. c. Basic Equations of Stellar Structure d. Thermal Equilibrium, Radiation andConvection - Schwarzchild Criterion e. Helioseismology",
+      "Galactic and Extragalactic Astronomy a. The Milky Way and Andromeda b. Rotation Curve - Dark Matter c. Structures within 500 mega light years d. Clusters of Galaxies, Superclusters, Filaments and Voids",
+      "Special Topics: a. White Dwarf - Quantum Mechanics and Gravitation: Chandrasekhar limit b. Supernova, Neutron Stars, (Pulsar astronomy), c. Black Holes, Gravitational Wave Astronomy d. Gamma Ray Burst e. Quasars and Active Galactic Nuclei",
+      "Topics in Cosmology a. Hubble Expansion - Cosmic Distance Scale - Age of the Universe b. Standard Model of Cosmology c. Cosmic Microwave Background d. Supernova Cosmology Project and Dark Energy e. Gravitational Lens",
+      "Major Astronomical facilities where India is involved: GMRT, SKA, Thirty Metre Telescope, LIGO, ASTROSAT",
+      "Open questions in Astrophysics and Cosmology"
+    ],
+    "need": "Astrophysics and Cosmology have a few fundamental unsolved problems. This course is an attempt to convey to the students that there are upcoming powerful astronomical facilities capable of solving some of them. But both at hardware and software level, it is Technology that drives what observations are feasible. India is one of the main contributors for development of some of the technologies.",
+    "credits": "None"
+  },
+  {
+    "_id": {
+      "$oid": "5fe77ffe2e47d2042cf0ca90"
+    },
+    "courseCode": "CH 403",
+    "courseName": "Quantum field theory",
+    "semester": "None",
+    "instructor": "Prof. B. L. Tembe",
+    "summary": [
+      "Introduction: Review of Classical Field Theories and the need for Quantum Field Theory Bosonic Fields: Second quantization of bosons; nonrelativistic quantum fields and the Landau Ginzburg theory; relativistic free particles and the KleinGordon field;",
+      "causality and the Klein-Gordon propagator; quantum electromagnetic fields and photons. Fermionic Fields: Second quantization of fermions; particle-hole formalism; Dirac equation and its nonrelativistic limit; quantum Dirac field; spinstatistics theorem; Dirac matrix techniques; Lorentz and discrete symmetries.",
+      "Interacting Fields and Feynman Rules: Perturbation theory; correlation functions; Feynman diagrams; S-matrix and crosssections; Feynman rules for fermions; Feynman rules for QED.",
+      "Functional Methods: Path integrals in quantum mechanics; path integrals for classical fields and functional quantization; functional quantization of QED; QFT and statistical mechanics; symmetries and conservation laws.",
+      "Quantum Electrodynamics: Some elementary processes; radiative corrections; infrared and ultraviolet divergencies; renormalization of fields and of the electric charge; Ward identity. Renormalization Theory: Systematics of renormalization; `integration out' and the Wilsonian renormalization; `running' of the coupling constants and the renormalization group.",
+      " Non-Abelian Gauge Theories: Non-abelian gauge symmetries; Yang-Mills theory; interactions of gauge bosons and Feynman rules; Fadde'ev-Popov ghosts and BRST; renormalization of the YM theories and the asymptotic freedom; the Standard Model"
+    ],
+    "need": "Quantum Field Theory is one of the basic theories in physics which has met with great success in explaining a large number of natural phenomena. This could be of interest to most students with a desire to learn physics and mathematics and who have a basic background in science in engineering of up to the third year of IIT B.Tech courses",
+    "credits": "None"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1d07591f50c3aa8bb60e4"
+    },
+    "courseCode": "PH 403",
+    "courseName": "Classical Mechanics",
+    "instructor": "Prof. D. Narasimha",
+    "summary": [
+      "Mechanics of Particles – Dynamical systems, Phase space dynamics,\r\nstability analysis; Variational Principle, Lagrange's Equations; The\r\nCentral Force Motions, Scattering; Rigid Body Dynamics –moment\r\nof inertia tensor; Conservation laws and cyclic coordinates;\r\nHamilton's Equation of Motion; Canonical Transformations;\r\nHamilton Jacobi Theory; Classical Perturbation Theory – periodic\r\nmotion, small oscillation, normal modes; Special theory of relativityLorentz transformations, relativistic kinematics and mass–energy\r\nequivalence; Optional: Chaos, Hamilton Jacobi Bellman Equation,\r\nLyapunov function"
+    ],
+    "semester": "None",
+    "need": "Classical Mechanics is a mature field in Science describing the motion of macroscopic objects. Consequently, most of the proposed topics will be useful for Mechanical Engineers. The course introduces topics like Lagrangian, Hamiltonian Formulation, Hamilton Jacobi Bellman equation, Lyapunov function which would provide powerful techniques very useful in Control theory and other topics relevant to Electrical & Computer Engineers."
+  },
+  {
+    "_id": {
+      "$oid": "5ff1d07591f50c3aa8bb60e5"
+    },
+    "courseCode": "CH 302",
+    "courseName": "Sustainable energy and energy materials",
+    "instructor": "Prof. Rajeshwara Rao,Prof. Sudheer Siddapureddy,Prof. Pratyasa Bhui",
+    "semester": "None",
+    "summary": [
+      "Fuel cells, catalysis for fuel cells and sustainable\r\nchemical processes ",
+      "• Batteries",
+      "Solar photovoltaics",
+      "Wind power: practical aspects",
+      "Tidal power",
+      "Inorganic, Organic and functional biomaterials as\r\nenergy materials "
+    ],
+    "need": "Developing sustainable/renewable energy methods are critical to meet the ever increasing global energy demands. This course will shed light on various methods which are currently under practice towards generating sustainable energy and their detailed mechanisms."
+  }
+]

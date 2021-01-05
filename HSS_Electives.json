@@ -1,0 +1,79 @@
+[
+  {
+    "_id": {
+      "$oid": "5fe77fd72e47d2042cf0ca8c"
+    },
+    "courseCode": "HS 303",
+    "courseName": "Introduction to Literature",
+    "semester": "None",
+    "instructor": "SVP",
+    "summary": [
+      "What is Literature, Genres of Literature, Literary Texts and Co Major Themes in Literature"
+    ],
+    "need": "The course is aimed at introducing students to literature- its reappreciation, and its relation to contemporary world, knowledge systems and contexts.",
+    "credits": "None"
+  },
+  {
+    "_id": {
+      "$oid": "5fe77fd72e47d2042cf0ca8d"
+    },
+    "courseCode": "HS 301",
+    "courseName": "Philosophy",
+    "semester": "None",
+    "instructor": "Prof. Jolly Thomas",
+    "summary": [
+      "What is Philosophy? (Philosophy in India and West)",
+      "Main Branches of Philosophy",
+      "Three Laws of Thought",
+      "Epistemology and Logic (Indian and Western)",
+      "Metaphysics (Universal and Particular,Substance and Attributes, Causality, Space, Time, Soul, God, Freedom)",
+      "Three Great Greek Philosophers: Socrates,Plato and Aristotle",
+      "Modern Philosophy: Rationalism andEmpiricism (Descartes, Locke, Berkeley and Hume)",
+      "Ethics(Utilitarianism, Categorical Imperative of Kant, Ethical Relativism, Bio-Medical Ethics, Ethical Issues)",
+      "Indian Philosophy Component(Nishkama-karma of Gita, Virtue Ethics of Buddhism, Advaita Vedanta).",
+      "Meaning of Life"
+    ],
+    "need": "HS 301 is a unique course that aims to provide the BTech students an understanding of philosophy and history of ideas. Through this course they are expected to develop philosophical analysis and critical thinking which will enhance their engineering imagination as a skill and profession with the training in epistemology, logic, philosophical speculation and creativity. The ethics-module of the course will help them to think and act ethically in their profession with relation to the societal expectations of their fellow humans in India.",
+    "credits": "None"
+  },
+  {
+    "_id": {
+      "$oid": "5fe77fd72e47d2042cf0ca8e"
+    },
+    "courseCode": "HS 305",
+    "courseName": "Intellectual Property Management",
+    "semester": "None",
+    "instructor": "Prof. R. R. Hirwani",
+    "summary": [
+      "Historical Development of Intellectual Property in Industrialised Society, Patent Basics, Patent Systems around the world, Application of patents in different technology areas including Software and Business Methods, How to read a Patent, Introduction to Patent Databases and Analysis Tools, Patent Searching and Analysis, Use of Patent Information for Research and Business Planning, Introduction to TRIZ , Evaluation of Patents, IPR Beyond Patents ( Copyright, Trade Marks, Designs and other forms of IP rights), IP Management including IP Strategy for Start-ups and Corporates , IP Licensing, IP Acquisition and Enforcement, Case studies and Tutorial."
+    ],
+    "need": "Intellectual Property plays an important role in technological innovations, creation and growth of technology start-ups. The existing patent databases are repositories of global technical knowledge and can be used for problem identification, cross fertilisation of ideas, generation of alternate solutions, technology monitoring, and competitive intelligence. It is felt necessary to sensitise the students to current IP regime and prepare them for the career in technology ventures",
+    "credits": "None"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cf4c91f50c3aa8bb60e2"
+    },
+    "courseCode": "HS 404",
+    "courseName": "Applied Ethics",
+    "instructor": "Prof. Jolly Thomas",
+    "summary": [
+      "Consequentialist Theories",
+      "Immanuel Kant’s Deontological Ethics",
+      "tological Ethics\r\nc. V"
+    ],
+    "need": "The main objective is to look at some of the actual ethical issues and see how one can make philosophical arguments regarding such issues. Such philosophical arguments would be stronger or would have more clarity if one can distinguish between normative ethical concerns from applied ethical concerns. In other words, to be able to critically think and examine any actual problem mentioned in the applied ethics, primarily one should be able to distinguish the normative ethical concerns from applied ethical concerns. Thus, the objective is to see various approaches in normative ethics. After that, analyze the problems in applied ethics."
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cf4c91f50c3aa8bb60e3"
+    },
+    "courseCode": "HS 406",
+    "courseName": "Introduction to Game Theory",
+    "instructor": "Prof. Gopal Parashari",
+    "summary": [
+      "Definition of games, normal form and strategies, Best response,\r\ndominance, Nash equilibrium, Iterated elimination of dominated\r\nstrategies, Mixed strategies.\r\nApplications: oligopoly, tariffs, crime, conflict, voting and auctions.\r\nBayesian games and applications. Extensive form games, backward\r\ninduction and sub game perfect equilibrium and applications. Perfect\r\nBayesian equilibrium. Repeated games.\r\nBargaining games and applications"
+    ],
+    "need": "This course provides basic to intermediate level of essential concepts in applied game theory. Game theory issued to model strategic interactions and finds its use in computer science, economics, politics, electrical and electronics engineering, biology etc."
+  }
+]

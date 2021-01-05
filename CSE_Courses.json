@@ -1,0 +1,359 @@
+[
+  {
+    "_id": {
+      "$oid": "5f884d81412521aa7bbfd5f5"
+    },
+    "courseCode": "CS 201",
+    "courseName": "Data Structures and Algorithms",
+    "semester": "3",
+    "instructor": "Prof. Sandeep R.B",
+    "summary": [
+      "Introduction: data structures, abstract data types, analysis of algorithms",
+      "Creation and manipulation of data structures: arrays, lists, stacks, queues, trees, heaps, hash tables, balanced trees, tries, graphs. Algorithms For Sorting and searching, order statistics, depth-first and breadth-first search, shortest paths and minimum spanning tree. "
+    ],
+    "need": "Basic course in data structures and algorithms."
+  },
+  {
+    "_id": {
+      "$oid": "5f8861ab412521aa7bbfd5f6"
+    },
+    "courseCode": "CS 211",
+    "courseName": "Data Structures and Algorithms Lab",
+    "semester": "3",
+    "instructor": "Prof. Sandeep R.B",
+    "summary": [
+      "Introduction: data structures, abstract data types, analysis of algorithms",
+      "Creation and manipulation of data structures: arrays, lists, stacks, queues, trees, heaps, hash tables, balanced trees, tries, graphs. Algorithms For Sorting and searching, order statistics, depth-first and breadth-first search, shortest paths and minimum spanning tree. "
+    ],
+    "need": "Basic course in data structures and algorithms."
+  },
+  {
+    "_id": {
+      "$oid": "5f886dd9412521aa7bbfd5f7"
+    },
+    "courseCode": "EE 201",
+    "courseName": "Data Analysis ",
+    "semester": "3",
+    "instructor": "Prof. Naveen M B, Prof. Sudhanshu Shukla",
+    "summary": [
+      "The role of statistics. Graphical and numerical methods for describing and summarising data. ",
+      "Probability. Population distributions. Sampling variability and sampling distributions. ",
+      "Estimation using a single sample. Hypothesis testing a single sample. Comparing two populations or treatments. Simple linear regression and correlation. Case studies."
+    ],
+    "need": "Analyzing data and interpreting results are integral part of almost every research and it finds extensive use in industry as well. From Machine learning to Finance, its applications are enormous."
+  },
+  {
+    "_id": {
+      "$oid": "5f886e47412521aa7bbfd5f8"
+    },
+    "courseCode": "HS 201",
+    "courseName": "Economics",
+    "semester": "3",
+    "instructor": "Prof.Gopal Sharan Parashari",
+    "summary": [
+      "Basic economic problems. resource constraints and Welfare maximizations. Nature of Economics: Positive and normative economics;",
+      "Micro and macroeconomics, Basic concepts in economics. The role of the State in economic activity; market and government failures; New Economic Policy in India.",
+      "Theory of utility and consumer’s choice. Theories of demand, supply and market equilibrium. ",
+      "Theories of firm, production and costs. Market structures. Perfect and imperfect competition, oligopoly, monopoly. ",
+      "An overview of macroeconomics, measurement and determination of national income. Consumption, savings, and investments. ",
+      "Commercial and central banking. Relationship between money, output and prices. ",
+      "Inflation - causes, consequences and remedies. International trade, foreign exchange and balance payments, stabilization policies : Monetary, Fiscal and Exchange rate policies."
+    ],
+    "need": "This course is a basic course on economics and useful for all students of B.Tech."
+  },
+  {
+    "_id": {
+      "$oid": "5f8996aefe33b81c749b9f37"
+    },
+    "courseCode": "CS 213",
+    "courseName": "Software Systems Lab",
+    "semester": "3",
+    "instructor": "Prof. Tamal Das",
+    "summary": [
+      "Vim/emacs HTML, CSS ",
+      "Report and presentation software: latex, beamer, drawing software (e.g. inkscape, xfig, open-office) ",
+      "IDE (e.g. eclipse, netbeans), code reading, debugging Basic Java Java collections, interfaces ",
+      "Java threads Java GUI Introduction to documentation: e.g. doxygen/javadocs ",
+      "Version management: SVN/Git ",
+      "Unix basics: shell, file system, permissions, process hierarchy, process monitoring, ssh, rsync ",
+      "Unix tools: e.g. awk, sed, grep, find, head, tail, tar, cut, sort ",
+      " Bash scripting: I/O redirection, pipes",
+      "Python programming ",
+      "Makefile, libraries and linking ",
+      "Graph plotting software (e.g., gnuplot) ",
+      "Profiling tools (e.g., gprof, prof) ",
+      "Optional topics (may be specific to individual students302222 projects): intro to sockets, basic SQL for data storage,JDBC/pygresql "
+    ],
+    "need": "This is a fundamental and core course which trains students on different programming platforms, as well as on basic software engineering principles."
+  },
+  {
+    "_id": {
+      "$oid": "5f899b93fe33b81c749b9f3a"
+    },
+    "courseCode": "CS 203",
+    "courseName": "Discrete Structures",
+    "semester": "3",
+    "instructor": "Prof. Prabuchandran",
+    "summary": [
+      "Proofs and structures",
+      "Counting and Combinatorics",
+      "Elements of graph theory",
+      "Introduction to abstract algebra and number theory Semigro"
+    ],
+    "need": "This is a fundamental and core course which forms the foundations for all theory courses in Computer Science."
+  },
+  {
+    "_id": {
+      "$oid": "5f899b93fe33b81c749b9f3b"
+    },
+    "courseCode": "CS 301",
+    "courseName": "Computer Architecture",
+    "semester": "5",
+    "instructor": "Prof. Rajshekar",
+    "summary": [
+      "The Language of Bits, Assembly Language, Logic Gates, Registers, and Memories, Processor Design, Principles of Pipelining, The Memory System, Multiprocessor Systems, I/O and Storage Devices. Each concept will be first taught on the basis of the fundamental driving principles. Following this, real world examples (e.g., ARM processors) will be used to emphasize the content. "
+    ],
+    "need": "Basic course in data structures and algorithms."
+  },
+  {
+    "_id": {
+      "$oid": "5f899b93fe33b81c749b9f3c"
+    },
+    "courseCode": "CS 303",
+    "courseName": "Data Bases and Information Systems",
+    "semester": "5",
+    "instructor": "Prof. N.L.Sarda",
+    "summary": [
+      "Overview of data management systems. Relational model and query languages (relational algebra and calculus, SQL). Database design using the ER Model, ER Diagrams, UML Class Diagrams. Relational database design and normalization. Integrity and Security. Design and development of Web based information systems. Overview of storage structures and indexing, query processing and optimization, and transaction processing. Introduction to Big Data management concepts such as: distributed and scalable data storage, including distributed file systems, key value stores, column stores and graph databases, replication and consistency, and concurrent data processing using the Map Reduce paradigm. Introduction to decision support and data analysis, data warehousing and data mining, and Information Retrieval."
+    ],
+    "need": "Fundamental course on Databases"
+  },
+  {
+    "_id": {
+      "$oid": "5f899b93fe33b81c749b9f3d"
+    },
+    "courseCode": "CS 311",
+    "courseName": "Computer Architecture Lab",
+    "semester": "5",
+    "instructor": "Prof. Rajshekar",
+    "summary": [
+      "The lab will closely follow the theory course. The idea is to have the students develop a software model of a simple processor, capturing both functionality and timing aspects. They Will implement modules as the concepts are taught in class."
+    ],
+    "need": "Fundamental lab course on computer architecture"
+  },
+  {
+    "_id": {
+      "$oid": "5f899b93fe33b81c749b9f3e"
+    },
+    "courseCode": "HS 301/ HS 303",
+    "courseName": "Philosophy/Introduction to Literature",
+    "semester": "5",
+    "instructor": "Prof. Ridhima Tiwari / Prof. Jolly Thomas",
+    "summary": [
+      "NIL"
+    ],
+    "need": "NIL"
+  },
+  {
+    "_id": {
+      "$oid": "5f899b93fe33b81c749b9f3f"
+    },
+    "courseCode": "CS 313",
+    "courseName": "Data Bases and Infromation Systems Lab",
+    "semester": "5",
+    "instructor": "Prof. N.L.Sarda",
+    "summary": [
+      "Use of database systems supporting interactive SQL. Two-tier client-server applications using JDBCorODBC, Three-tier web applications using Java servlets/JDBC or equivalent. Design of applications and user interfaces using these systems. Data analysis tools. Laboratory project involving building data backed applications with Web or mobile app frontends."
+    ],
+    "need": "Fundamental lab course on Databases"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb6c"
+    },
+    "courseCode": "CS 202",
+    "courseName": "Automata Theory",
+    "semester": "4",
+    "instructor": "Prof. N.L.Sarda",
+    "summary": [
+      "Finite state machines (DFA/NFA/epsilon NFAs), regular expressions. Properties of regular languages. My hillNerode Theorem. Non-regularity. Push down automata. Properties of context-free languages. Turing machines:Turing hypothesis, Turing computability, Nondeterministic, multi tape and other versions of Turing machines. Church`s thesis, recursively enumerable sets and Turing computability. Universal Turing machines. Unsolvability, The halting problem, partial solvability, Turing enumerability, acceptability and decidability, unsolvable problems about Turing Machines. Post`s correspondence problem."
+    ],
+    "need": "Fundamental course on computability"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb6d"
+    },
+    "courseCode": "CS 205",
+    "courseName": "Design and Analysis of Algorithms",
+    "semester": "4",
+    "instructor": "PRB",
+    "summary": [
+      "Module 1: Introduction Examples and motivation",
+      "Module 2: Searching in list",
+      "Module 3: Divide and conquer",
+      "Module 4: Graph, Motivation,\r\n",
+      "Module 5: Union-Find data structure",
+      "Module 6: Greedy algorithms",
+      "Module 7: Dynamic Programming",
+      "Module 8: Intractability: "
+    ],
+    "need": "Core Course for Computer Science undergraduate students"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb6e"
+    },
+    "courseCode": "CS 204",
+    "courseName": "Computer Networks",
+    "semester": "4",
+    "instructor": "BR",
+    "summary": [
+      "Design of Computer Networking protocols at all layers: transmission media, data link protocols, media access control, routing and congestion control, admission control, traffic shaping and policing, Internet working (IP) and transport layer protocols (TCP). Performance analysis of networks."
+    ],
+    "need": "Fundamental course on computer networks."
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb6f"
+    },
+    "courseCode": "EE 224",
+    "courseName": "Digital Systems",
+    "semester": "4",
+    "instructor": "RG",
+    "summary": [
+      "Introduction to Digital Systems",
+      "Number systems and Logic: Number Systems, Different Codes, Boolean logic, basic gates, truth tables ",
+      "Introduction to Logic families: TTL, CMOS etc. \r\n",
+      "Boolean Algebra: Laws of Boolean Algebra, logic minimization using K maps ",
+      " Combinational Logic Circuits: Adders, Subtractors, Multipliers, MSI components like Comparators, Decoders, Encoders, MUXs, DEMUXs  ",
+      "Sequential circuits: Latches, Flipflops, Analysis of clocked sequential circuits, Registers and Counters (Synchronous and Asynchronous), State Machines",
+      "Introduction to Hardware Description Languages",
+      "Array based logic elements: Memory, PLA, PLD, FPGA ",
+      "Special Topics: Asynchronous State machines, Testing and Verification of Digital Systems"
+    ],
+    "need": "This course introduces students to the world of Digital Systems by introducing concept of Boolean Algebra and Logic Functions. This course is a beginning of the spine related to Digital Design, Microprocessor, Embedded Systems etc,"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb70"
+    },
+    "courseCode": "MA 206",
+    "courseName": "Introduction to Numerical Methods (half semester)",
+    "semester": "4",
+    "instructor": "Prof. Sagnik Sen",
+    "summary": [
+      "Interpolation by polynomials, divided differences, error of the interpolating polynomial, piecewise linear and cubic spline interpolation. Numerical integration, composite rules, error formulae. Solution of a nonlinear equation, bisection and secant methods. Newton’s method, rate of convergence, solution of a system of nonlinear equations, Numerical solution of ordinary differential equations, Euler and Runge-Kutta methods, multistep methods, predictor-corrector methods, order of convergence, Finite difference methods, numerical solutions of elliptic, parabolic, and hyperbolic partial differential equations. Exposure to MATLAB"
+    ],
+    "need": "This is a first course in numerical methods and introduces topics like interpolation, numerical integration and solution of nonlinear equations. These topics, along with numerical linear algebra, formulate the basis for computer aided engineering (CAE), therefore, any student motivated to learn and work in CAE would benefit from this course. Also this course serves as a pre-requisite for more advanced courses like finite element, finite volume etc. where the ideas formulated in this course is used routinely."
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb71"
+    },
+    "courseCode": "MA 208",
+    "courseName": "Introduction to Numerical Linear Algebra (half semester)",
+    "semester": "4",
+    "instructor": "Prof. Amlan Barua",
+    "summary": [
+      "Vector and Matrix Norms, Gram Schmidt Orthogonalization, Singular Value Decomposition, QR factorization, Householder Triangularization. Floating point number system, Condition number and Stability, Stability of Back substitution, Gauss Elimination and Householder methods Numerical techniques for finding eigenvalues, Rayleigh Quotient, QR methods, Divide and Conquer strategies Krylov subspace techniques, GMRES and Conjugate Gradient (c) Backpropagation, Initialization, Training and Validation, Parameter Estimation - MLE, MAP, Bayesian Estimation\r\n"
+    ],
+    "need": "This course will enable a student to gain advanced knowledge on the numerical perspectives of linear algebra. The potential applications can be in large scale computations in engineering"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb72"
+    },
+    "courseCode": "CS 212 ",
+    "courseName": "Computer Networks Lab",
+    "semester": "4",
+    "instructor": "Prof. Siba Narayan Swain",
+    "summary": [
+      "Experiments to support study of the Internet protocol stack: ",
+      "(a) Experimental study of application protocols such as HTTP, FTP, SMTP, using network packet sniffers and analyzers such as Ethereal. Small exercises in socket programming in C/C++/Java. ",
+      "(b) Experiments with packet sniffers to study the TCP protocol. Using OS (netstat, etc) tools to understand TCP protocol FSM, vii Course Content retransmission timer behavior, congestion control behaviour. ",
+      "(c) Introduction to ns2 (network simulator) - small simulation exercises to study TCP behavior under different scenarios. ",
+      "(d) Setting up a small IP network - configure interfaces, IP addresses and routing protocols to set up a small IP network. Study dynamic behaviour using packet sniffers",
+      "(e) Experiments with ns2 to study behaviour (especially performance of) link layer protocols such as Ethernet and 802.11 wireless LAN."
+    ],
+    "need": "Fundamental Laboratory course on computer networks."
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb73"
+    },
+    "courseCode": "CS 302",
+    "courseName": "Artificial Intelligence",
+    "semester": "6",
+    "instructor": "Prof. Kedar Khandeparkar",
+    "summary": [
+      "Search: Problem representation; State Space Search; A*Algorithm and its Properties; AO* search, Minimax andalpha-beta pruning, AI in games. Logic: Formal Systems;Notion of Proof, Decidability, Soundness, Consistency andCompleteness; Predicate Calculus (PC), Resolution Refutation, Herbrand Interpretation, Prolog. KnowledgeRepresentation: PC based Knowledge Representation,Intelligent Question Answering, Semantic Net, Frames,Script, Conceptual Dependency, Ontologies, Basics ofSemantic Web. Leaning: Learning from Examples, DecisionTrees, Neural Nets, Hidden Markov Models, ReinforcementLearning, Learnability Theory. Uncertainty: Formal andEmpirical approaches including Bayesian Theory, FuzzyLogic, Non-monotonic Logic, Default Reasoning. Planning:Blocks World, STRIPS, Constraint Satisfaction, Basics ofProbabilistic Planning. Advanced Topics: Introduction totopics like Computer Vision, Expert Systems, NaturalLanguage Processing, Big data, Neuro Computing, Robotics,Web Search.\n"
+    ],
+    "need": "AI is taught traditionally as it is driving force behind many concepts in computer science and it is also precursor to advanced courses like machine learning."
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb74"
+    },
+    "courseCode": "CS 304",
+    "courseName": "Operating Systems",
+    "semester": "6",
+    "instructor": "Prof. Gayathri Ananthanarayanan",
+    "summary": [
+      "Process Management, Memory Management, Storage\r\nManagement, Protection and Security, Virtual Machines,\r\nDistributed Systems"
+    ],
+    "need": "Fundamental course in Computer Science and Engineering"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb75"
+    },
+    "courseCode": "CS 406",
+    "courseName": "Compilers",
+    "semester": "6",
+    "instructor": "Prof. Nikhil Hegde",
+    "summary": [
+      "The compiled and interpreted execution models.\r\nLexical analysis and parsing using lex and yacc.\r\nScope and visibility analysis. The role of types.\r\nType analysis of a language with basic types,\r\nderived types, parametric polymorphism and\r\nsubtypes. Binding times. Data layout and lifetime\r\nmanagement of data. Stack and heap as storage\r\nstructures. Implementation of function calls.\r\nActivation records structures. Dynamic memory\r\nallocation and Garbage collection.\r\nImplementation of higher order functions -\r\nclosures. Implementation of control structures,\r\nexception handling. Implementation of object\r\noriented concepts -- objects, inheritance and\r\ndynamic dispatch. Implementation of a naive\r\ncode generator for a virtual machine. Security\r\nchecking of virtual machine code."
+    ],
+    "need": "None"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb76"
+    },
+    "courseCode": "CS 312",
+    "courseName": "Artificial Intelligence Lab",
+    "semester": "6",
+    "instructor": "Prof. Kedar Khandeparkar",
+    "summary": [
+      "The lab will closely follow and aim to elucidate the lessons\r\ncovered in the theory course CS344. Implementation and\r\nstudy of A*, Usage of Prolog Inferencing, Expert System\r\nShells, Neural Net Platforms, Prediction and Sequence\r\nLabeling using HMMs, Simulation of Robot Navigation and\r\nsuch exercises are strongly recommended. "
+    ],
+    "need": "None"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb77"
+    },
+    "courseCode": "CS 314",
+    "courseName": "Operating Systems Lab",
+    "semester": "6",
+    "instructor": "Prof. Gayathri Ananthanarayanan",
+    "summary": [
+      "Laboratory Assignments related to the topics covered in\r\nthe theory course: Process Management, Memory\r\nManagement, Storage Management, Protection and"
+    ],
+    "need": "None"
+  },
+  {
+    "_id": {
+      "$oid": "5ff064e518edf4553894fb78"
+    },
+    "courseCode": "CS 316",
+    "courseName": "Compilers Lab",
+    "semester": "6",
+    "instructor": "Prof. Nikhil Hegde",
+    "summary": [
+      "Design and implementation of a scanner using\r\nscanner generator. Design and implementation\r\nof a parser using parser generator. Symbol\r\ntable generation, Semantic actions for\r\nexpressions, control structures, and functions.\r\nImplementing liveness analysis and applying\r\nit to register\r\nallocation."
+    ],
+    "need": "None"
+  }
+]

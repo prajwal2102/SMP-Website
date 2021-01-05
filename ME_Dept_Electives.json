@@ -1,0 +1,223 @@
+[
+  {
+    "_id": {
+      "$oid": "5fe77f8f2e47d2042cf0ca84"
+    },
+    "courseCode": "ME 401",
+    "courseName": "Finite Element Analysis",
+    "semester": "Autumn",
+    "instructor": "Prof. Amar Gaonkar",
+    "summary": [
+      "Approximate solution of differential equations - - Weighted residual techniques. Collocation, Least Squares and Galerkin methods. Piecewise approximations. Basis of Finite Element Method. Formulation of the matrix method -- 'stiffness matrix'; transformation and assembly concepts. Example problems in one dimensional structural analysis, heat transfer and fluid flow. Elements of Variational calculus. Minimisation of a functional. Principle of minimum total potential. Piecewise Rayleigh - Ritz method and FEM. Comparison with weighted residual method.  Two dimensional finite element formulation. Isoparametry and numerical integration. Algorithms for solution of equations. Convergence criteria, patch test and errors in finite element analysis.  Finite element formulation of dynamics. Applications to free vibration problems. Lumped  and consistent mass matrices. Algorithms for solution of eigenvalue problems"
+    ],
+    "need": "FEM is a numerical method to solve PDEs. The course introduces the basic concepts and principles involved in FE formulation of PDEs. Applications to domains spanning structural mechanics , fluid mechanics and heat transfer are taken to illustrate the concepts",
+    "credits": "6"
+  },
+  {
+    "_id": {
+      "$oid": "5fe77f8f2e47d2042cf0ca85"
+    },
+    "courseCode": "ME 403",
+    "courseName": "Vibrations of Linear Systems",
+    "semester": "Autumn",
+    "instructor": "Shrikanth V.",
+    "summary": [
+      "Concepts of Vibrations",
+      "Characteristics of Discrete System Components",
+      "One DOF systems",
+      "Forced Vibrations",
+      "Response of Single DOF systems to Nonperiodic Excitations",
+      "Two DOF Systems",
+      "Vibrations of Continuous Systems"
+    ],
+    "need": "This course deals with the study of vibration in mechanical systems which is concerned with the oscillatory motions of bodies and the forces associated with them. This course aims to provide you with an understanding of the nature and behaviour of dynamic engineering systems and the capability of applying the knowledge of mathematics, science, and engineering to solve engineering vibration problems",
+    "credits": "6"
+  },
+  {
+    "_id": {
+      "$oid": "5fe77f8f2e47d2042cf0ca86"
+    },
+    "courseCode": "ME 425",
+    "courseName": "Additive Manufacturing",
+    "semester": "Autumn",
+    "instructor": "Somashekara M A",
+    "summary": [
+      "Module 1: General overview",
+      "Module 2: Software & Methods, Solid moduling, Designing for Additive Manufacturing (DfAM)",
+      "Module 3: AM technologies, classification of AM processes: Sheet Lamination, Material Extrusion",
+      "Module 4: Materials science for AM, discussion on different materials used in AM",
+      "Module 5: Key Related Processes, Process selection, decision methods planning, control for AM",
+      "Module 6: Applications of AM, Direct Digital Manufacturing, Distributed Manufacturing"
+    ],
+    "need": "Additive Manufacturing (AM) processes has shown extreme flexibility in design, optimization and fabrications. Usage of AM",
+    "credits": "6"
+  },
+  {
+    "_id": {
+      "$oid": "5fe77f8f2e47d2042cf0ca87"
+    },
+    "courseCode": "ME 429",
+    "courseName": "Solar Energy Collector Systems",
+    "semester": "Autumn",
+    "instructor": "Dhiraj V Patil",
+    "summary": [
+      "Recap of solar energy",
+      "Solar thermal-energy collectors",
+      "Thermal analysis of solar collectors",
+      "Solar water-heating (SWH) systems",
+      "Solar air-heating (SAH) systems",
+      "Photovoltaic (PV) systems"
+    ],
+    "need": "The origin and continuation of humankind is based on solar energy. This course introduces basics of solar energy harvesting, thermal-analysis of various collectors. Next, the course introduces the design and performance aspects of solar water-heating, air-heating systems and photovoltaic modules. The course is essential for the current technologist foreseeing the future use of green, renewable and sustainable energy.",
+    "credits": "6"
+  },
+  {
+    "_id": {
+      "$oid": "5fe77f8f2e47d2042cf0ca88"
+    },
+    "courseCode": "None",
+    "courseName": "Fluid Flow and Heat Transfer in Porous Media",
+    "semester": "Autumn",
+    "instructor": "SVP",
+    "summary": [
+      "Module 1: Mechanics of Fluid flow through Porous Medium: porosity, volume averaging procedure, Equation of continuity, momentum equation (Darcy’s Law, Forchheimer equation, Brinkman equation), Turbulence in porous media. (10 hr)",
+      "Module 2: Heat Conduction in Porous Medium: Local thermal equilibrium, effective stagnant thermal conductivity, thermal dispersion, local thermal non-equilibrium, interfacial heat transfer coefficient (8 hr)",
+      "Module 3: Forced Convection through Porous Medium: external flow, internal flows and jet impinging flows (9 hr)",
+      "Module 4: Natural Convection through Porous Medium: external flows (9 hr)",
+      "Module 5: Radiation heat transfer through Porous Medium: Radiation transport equation, energy equation with radiation"
+    ],
+    "need": "Knowledge of heat and fluid flow through porous media finds extensive applications in several engineering devices covering branches, mechanical, civil and chemical engineering. Recent ramifications include bioengineering and bio-technology",
+    "credits": "6"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cd0f91f50c3aa8bb60db"
+    },
+    "courseCode": "ME 409",
+    "courseName": "Composite Materials",
+    "instructor": "Prof.A N Tiwari",
+    "summary": [
+      "Introduction",
+      "Reinforcements",
+      "Glass fibers",
+      " Micromechanics",
+      "Role of matrix and characteristics of different matrix\r\nmaterials.",
+      "Reinforcement-matrix Interfaces",
+      "Polymer matrix composites (PMC)",
+      "Manufacturing methods",
+      "Metal matrix composites (MMC)",
+      " Properties and applications of selected PMCs and\r\nMMCs in industry.",
+      "Ceramic matrix composites (CMC)",
+      " Introduction to Nanocomposites.\r"
+    ],
+    "need": "An understanding of basics of reinforcements,\nmatrices and composite materials Structure, processing and properties of\nreinforcements and matrix materials.Basic understanding of composite micromechanics\nand interfacial bonding.Manufacturing methods and engineering applications of Polymer-, metal- and ceramic- matrix\ncomposites (PMC, MMC, &CMC)   Introduction to nanocomposites and their\napplication.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cd0f91f50c3aa8bb60dc"
+    },
+    "courseCode": "ME 426",
+    "courseName": "Introduction to Computational Fluid Dynamics",
+    "instructor": "Prof. Dhiraj V Patil",
+    "summary": [
+      "Review of Governing Equations.",
+      " Fundamentals of Numerical Methods",
+      "Diffusion Equation",
+      "Advection-Diffusion Equation: ",
+      "Incompressible Navier-Stokes equations",
+      "Special Topics",
+      "Mesoscopic approaches to discrete simulation of fluid\r\ndynamics",
+      ". Tutorial on a commercial CFD code & an open-source\r\ncode"
+    ],
+    "need": "CFD is an integral part of the design process in mechanical, aerospace, and chemical industries, as well as a topic of active research. Training at the undergraduate and early-postgraduate level will enable students to take advantage of opportunities in these areas. The course aims to provide an introduction to discretization and solution of the equations of fluid dynamics and heat transfer. Students will gain an appreciation of the principles of the finite-volume method, experience in writing and debugging scientific codes, and solving and analysing a problem using a commercial/opensource package. Students should expect to devote significant time to learning via coding assignments and project.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cd0f91f50c3aa8bb60dd"
+    },
+    "courseCode": "ME 428",
+    "courseName": "Refrigerator - Air Conditioning",
+    "instructor": "Prof. S L Bapat",
+    "summary": [
+      "Introduction: ",
+      "Refrigeration cycles and techniques",
+      "Refrigeration subsystems",
+      "Refrigeration systems",
+      "Prelude for air-conditioning systems",
+      "Air-conditioning principles and systems",
+      "Applications of refrigeration and air-conditioning",
+      "Enviromental impact and future of cooling systems: "
+    ],
+    "need": "Refrigeration and air-conditioning systems take up a significant portion of the energy demands in present-day society. The situation 68 will be aggravated in the future due to the increasing demand of cooling requirements with the declining of conventional energy sources. This demans design of high-efficiency cooling devices with improved or novel thermodynamic cycles and devices. The course primarily focuses on the methods employed in conventional refrigeration and air-conditioning sytems. The course provides the necessary domain knowledge and analytical skills for a student to work in areas of design and analysis of cooling systems. In terms of the academic pedagogy, being an applied course, its contents provide a context for the concepts and principles encountered in basic courses such as thermodynamics, fluid mechanics and heat transfer.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cd0f91f50c3aa8bb60de"
+    },
+    "courseCode": "ME 430",
+    "courseName": "Heat Exchangers",
+    "instructor": "Prof. S V Prabhu",
+    "summary": [
+      "Classification of heat exchangers, Basic design methods of\r\nheat exchangers\r\nSingle phase heat exchangers: Forced Convection\r\nCorrelations for the Single-Phase Side of Heat\r\nExchangers, Design of double pipe heat exchangers, shell\r\nand tube heat exchangers, compact heat exchangers\r\nFundamentals of two phase flow, Essentials for the design\r\nof two phase heat exchangers, Design Correlations for\r\nCondensers and Evaporators, Design of evaporators and\r\ncondensers\r"
+    ],
+    "need": "Thermal design of the heat exchangers is essential as heat exchangers are extensively used in several practical applications.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cd0f91f50c3aa8bb60df"
+    },
+    "courseCode": "ME 306",
+    "courseName": "Theory of Elasticity",
+    "instructor": "Prof. Tejas P Gothkhindi, Prof. Amar Gaonkar",
+    "summary": [
+      "Module-1: Analysis of Stress",
+      "Module-2: Analysis of Strain",
+      "Module-3: Stress-strain relations",
+      "Module-4: Two dimensional problems in Cartesian\r\ncoordinate system",
+      "Module-5: Two dimensional problems in polar\r\ncoordinate system strain-displacement relations",
+      "Module-6: Torsion of prismatic bars, general solution\r\nof the torsion problem, stress function,",
+      "Module-7: Thermal Stresses"
+    ],
+    "need": "Theory of elasticity (TOE) is a course which investigates effect of external loads on deformable bodies. Unlike mechanics of materials, TOE is more rigorous as it relaxes many assumptions of mechanics of materials. Thus, it paves way to analyze solids beyond structural elements like beams, trusses and shafts. This approach for generalization invokes more rigor mathematically. In this course, we linearize strains and stress-strain relation to attempt problems from mechanics of materials in the new perspective i.e. from TOE approach but not limited to it. Thus, it aims to appreciate the need for experimental mechanics techniques like Photoelasticity, Thermoelastic stress analysis, DIC and the need for computational tools like FEM.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cd0f91f50c3aa8bb60e0"
+    },
+    "courseCode": "ME 407",
+    "courseName": "IC Engines",
+    "instructor": "Prof. Surya Prakash",
+    "summary": [
+      "General concepts",
+      "Reciprocating engine technology",
+      "Recall of thermodynamics ",
+      "Fuel-air systems",
+      "Valve train and timing: ",
+      "Fuels & Combustion",
+      "Ignition -",
+      "Emissions & Controls "
+    ],
+    "need": "Transportation is the basic need for humanity – IC Engines are the prime movers in today’s world. A mechanical engineer has to have the knowledge of this subject to be relevant to the industry, especially the automobile sector.",
+    "semester": "Spring"
+  },
+  {
+    "_id": {
+      "$oid": "5ff1cd0f91f50c3aa8bb60e1"
+    },
+    "courseCode": "ME 406",
+    "courseName": "Advanced Finite Element Methods",
+    "instructor": "Prof. Amar Gaonkar",
+    "summary": [
+      "FEM formulation for time dependent problems",
+      "Introduction to reduced order modelling technique",
+      "Nonlinear Finite Element Method "
+    ],
+    "need": "This course is an extension to the introduction to finite element course. A student will get exposure to the advance topics in FEM such as nonlinear FEM, plate theory, dynamic problems, etc which will be helpful for finite element problems in industry and research.",
+    "semester": "Spring"
+  }
+]
