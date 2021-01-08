@@ -34,7 +34,7 @@ getcourses = () => {
   var i = 3;
   for (k = 0; k < 6; k++) {
     fetch(
-      "http://localhost:5000/damp/api/Courses?sem=" +
+      "http://localhost:3000/damp/api/Courses?sem=" +
         (k + 3).toString() +
         "&type=" +
         type

@@ -236,10 +236,9 @@
   padding: 15px;
   margin: 15px 20px;
   outline: none;
-  width: 95%;
-  background-color:#fdc6322e;
+  width: 90%;
+  background-color: #fdc6322e;
   color: black;
-  
 }
 
 .reviewer-info {
@@ -268,4 +267,36 @@
 }
 .reviewer-name-parent {
   margin: 0px 10px;
+}
+
+.reviewtoggleBtn {
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: #fdc632;
+  cursor: pointer;
+  border: solid;
+  border-color: #fdc632;
+  font-weight: 500;
+
+}
+
+.reviewtoggleBtn:hover{
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.reviewtoggleBtnDelete{
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: red;
+    cursor: pointer;
+    border: solid;
+    border-color: red;
+    font-weight: 500;
+    color: white;
+}
+.reviewtoggleBtnDelete:hover{
+      background-color: white;
+    transform: scale(1.1);
+    color: black;
 }

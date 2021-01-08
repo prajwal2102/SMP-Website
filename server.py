@@ -1,22 +1,25 @@
 from flask import Flask, request, jsonify, send_from_directory
 import json
 from flask_cors import CORS
-import pymongo
 from bson.objectid import ObjectId
 from datetime import datetime
 import pytz
 
-client = pymongo.MongoClient(
-    "mongodb+srv://Server:ODF21Lrh3EFQooDu@smp-iitdh-database.zhcds.gcp.mongodb.net/FAQs?retryWrites=true&w=majority")
-FAQSdb = client['FAQs']
-
-Coursesdb = client['Courses']
-
-Teamdb = client['Team']
 
 app = Flask(__name__)
 cors = CORS(app)
 
+@app.route('/damp/api/login', methods=['GET'])
+def login():
+    email = request.args.get('email')
+    f = open("admin.json", "r", encoding="utf8")
+    emails = json.loads(f.read())['emails']
+    f.close()
+    print(emails)
+    if email in emails:
+        return jsonify(role="admin")
+    else:
+        return jsonify(role="notAdmin")
 
 @app.route('/damp/api/Courses', methods=['GET'])
 def Courses():
@@ -84,6 +87,21 @@ def Courses():
 @app.route('/damp/api/CourseDetails', methods=['GET'])
 def CourseDetails():
     id = request.args.get('id')
+    role = ""
+    try:
+        email = request.args.get('email')
+
+        f = open("admin.json", "r", encoding="utf8")
+        emails = json.loads(f.read())['emails']
+        f.close()
+
+        if email in emails:
+            role = "admin"
+        else:
+            role = "notAdmin"
+    except:
+        pass
+
     data = []
     raw_data = []
     files = ['CSE_Courses.json', 'EE_Courses.json', 'ME_Courses.json', 'HSS_Electives.json',
@@ -105,10 +123,9 @@ def CourseDetails():
                         f.close()
 
                     data.append(raw_data[i_no])
-                    print(raw_data[i_no])
-                    return jsonify(data=data, res_status='FOUND')
+                    return jsonify(data=data, res_status='FOUND', role=role)
 
-    return jsonify(res_status= 'NOT FOUND')
+    return jsonify(res_status= 'NOT FOUND', role=role)
 
 
 @app.route('/damp/api/SubmitCourseReview', methods=['GET'])
@@ -118,7 +135,7 @@ def CourseReview():
     name = request.args.get('name')
     email = request.args.get('email')
     img_url = request.args.get('imgUrl')
-
+    
     IST = pytz.timezone('Asia/Kolkata')
     time = datetime.now(IST)
     time = time.strftime('%d-%B-%Y %H:%M ')
@@ -138,7 +155,8 @@ def CourseReview():
                         "email": email,
                         "review": new_review,
                         "time": time,
-                        "imgUrl":img_url
+                        "imgUrl": img_url,
+                        "show":False
                     }
                     data[item_no]['reviews'].insert(0, new_data)
                     stat = True
@@ -148,6 +166,71 @@ def CourseReview():
                     return jsonify( res_status='SUBMITED')
 
     return jsonify(res_status='NOT SUBMITED')
+
+@app.route('/damp/api/togglecommentshow', methods=['GET'])
+def toggleComment():
+    course_id = request.args.get('id')
+    review = request.args.get('review')
+    email = request.args.get('email')
+    time = request.args.get('time')
+
+    files = ['HSS_Electives.json', 'Institute_Electives.json',
+             'ME_Dept_Electives.json', 'CSE_Dept_Electives.json', 'EE_Dept_Electives.json']
+    stat = False
+
+    for i in files:
+        if not stat:
+            f = open(i, 'r', encoding="utf8")
+            data = json.loads(f.read())
+            f.close()
+            
+            for item_no in range(len(data)):
+                
+                if str(course_id) == str(data[item_no]['_id']['$oid']):
+                    print(data[item_no]['_id']['$oid'])
+                    for eachReviewNo in range(len(data[item_no]['reviews'])):
+                        if review == data[item_no]['reviews'][eachReviewNo]['review'] and email == data[item_no]['reviews'][eachReviewNo]['email'] and str(time) == data[item_no]['reviews'][eachReviewNo]['time'][:-1]:
+                            print("hi")
+                            data[item_no]['reviews'][eachReviewNo]['show'] = not data[item_no]['reviews'][eachReviewNo]['show']
+                            stat = True
+                            f = open(i, 'w', encoding="utf8")
+                            f.write(json.dumps(data))
+                            f.close()
+                            return jsonify(res_status='UPDATED')
+    return jsonify(res_status='NOT UPDATED')
+
+
+@app.route('/damp/api/deletecomment', methods=['GET'])
+def deleteComment():
+    course_id = request.args.get('id')
+    review = request.args.get('review')
+    email = request.args.get('email')
+    time = request.args.get('time')
+
+
+    files = ['HSS_Electives.json', 'Institute_Electives.json',
+             'ME_Dept_Electives.json', 'CSE_Dept_Electives.json', 'EE_Dept_Electives.json']
+    stat = False
+
+    for i in files:
+        if not stat:
+            f = open(i, 'r', encoding="utf8")
+            data = json.loads(f.read())
+            f.close()
+
+            for item_no in range(len(data)):
+
+                if str(course_id) == str(data[item_no]['_id']['$oid']):
+                    print(data[item_no]['_id']['$oid'])
+                    for eachReviewNo in range(len(data[item_no]['reviews'])):
+                        if review == data[item_no]['reviews'][eachReviewNo]['review'] and email == data[item_no]['reviews'][eachReviewNo]['email'] and str(time) == data[item_no]['reviews'][eachReviewNo]['time'][:-1]:
+                            data[item_no]['reviews'].pop(eachReviewNo)
+                            stat = True
+                            f = open(i, 'w', encoding="utf8")
+                            f.write(json.dumps(data))
+                            f.close()
+                            return jsonify(res_status='UPDATED')
+    return jsonify(res_status='NOT UPDATED')
 
 @app.route('/')
 def index():
@@ -159,4 +242,4 @@ def send_js(path):
     return send_from_directory('templates', path)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port="5000", debug=True)
+    app.run(host="0.0.0.0", port="3000", debug=True)
