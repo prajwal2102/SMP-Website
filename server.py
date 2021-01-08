@@ -178,7 +178,6 @@ def toggleComment():
                     print(data[item_no]['_id']['$oid'])
                     for eachReviewNo in range(len(data[item_no]['reviews'])):
                         if review == data[item_no]['reviews'][eachReviewNo]['review'] and email == data[item_no]['reviews'][eachReviewNo]['email'] and str(time) == data[item_no]['reviews'][eachReviewNo]['time'][:-1]:
-                            print("hi")
                             data[item_no]['reviews'][eachReviewNo]['show'] = not data[item_no]['reviews'][eachReviewNo]['show']
                             stat = True
                             f = open(i, 'w', encoding="utf8")
