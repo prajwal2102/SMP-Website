@@ -8,17 +8,6 @@ import pytz
 app = Flask(__name__)
 cors = CORS(app)
 
-@app.route('/damp/api/login', methods=['GET'])
-def login():
-    email = request.args.get('email')
-    f = open("admin.json", "r", encoding="utf8")
-    emails = json.loads(f.read())['emails']
-    f.close()
-    print(emails)
-    if email in emails:
-        return jsonify(role="admin")
-    else:
-        return jsonify(role="notAdmin")
 
 @app.route('/damp/api/Courses', methods=['GET'])
 def Courses():
