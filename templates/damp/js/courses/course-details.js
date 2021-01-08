@@ -7,35 +7,11 @@ geturlparm = (varia) => {
   return code;
 };
 
-toggleShow = (name,email,time,review) => {
+toggleShow = (name, email, time, review) => {
   var id = geturlparm("id");
-  
-  fetch(
-    "http://localhost:3000/damp/api/togglecommentshow?id=" +
-      id +
-      "&email=" +
-      email +
-      "&review=" +
-      review +
-      "&time=" +
-      time
-  )
-    .then((res) => {
-      return res.json();
-    })
-    .then((res) => {
-      console.log(res);
-      if (res.res_status == "UPDATED") {
-        getcoursedetails();
-      }
-    });
-}
 
-deleteShow = (name,email,time,review) => {
-  var id = geturlparm("id");
-  
   fetch(
-    "http://localhost:3000/damp/api/deletecomment?id=" +
+    "api/togglecommentshow?id=" +
       id +
       "&email=" +
       email +
@@ -53,17 +29,38 @@ deleteShow = (name,email,time,review) => {
         getcoursedetails();
       }
     });
-}
+};
+
+deleteShow = (name, email, time, review) => {
+  var id = geturlparm("id");
+
+  fetch(
+    "api/deletecomment?id=" +
+      id +
+      "&email=" +
+      email +
+      "&review=" +
+      review +
+      "&time=" +
+      time
+  )
+    .then((res) => {
+      return res.json();
+    })
+    .then((res) => {
+      console.log(res);
+      if (res.res_status == "UPDATED") {
+        getcoursedetails();
+      }
+    });
+};
 getcoursedetails = () => {
-  
   var id = geturlparm("id");
   var type = geturlparm("type");
 
-  var email = localStorage.getItem('email');
-  
-  fetch(
-    "http://localhost:3000/damp/api/CourseDetails?id=" + id + "&email=" + email
-  )
+  var email = localStorage.getItem("email");
+
+  fetch("api/CourseDetails?id=" + id + "&email=" + email)
     .then((response) => {
       return response.json();
     })
@@ -72,7 +69,7 @@ getcoursedetails = () => {
         var role = item.role;
         console.log(item);
         item = item.data[0];
-        
+
         document.getElementById("coursecode").innerHTML = item.courseCode;
         document.getElementById("coursename").innerHTML = item.courseName;
         document.getElementById("instructor").innerHTML = item.instructor;
@@ -90,7 +87,7 @@ getcoursedetails = () => {
         if (type == "Elect") {
           item.reviews.map((review, i) => {
             console.log(review.imgUrl);
-            if (role == 'admin') {
+            if (role == "admin") {
               document.getElementById("course-reviews").innerHTML +=
                 `
                   <div class="review">
@@ -207,7 +204,8 @@ getcoursedetails = () => {
                   &#8217&#8217
                 </div>
               </div>`;
-            }});
+            }
+          });
         } else {
           document.getElementById("review-row").style.display = "none";
         }
@@ -217,7 +215,7 @@ getcoursedetails = () => {
 
 getcoursedetails();
 
- var auth2 = gapi.auth2.getAuthInstance();
+var auth2 = gapi.auth2.getAuthInstance();
 auth2.currentUser.listen(getcoursedetails);
 
 clearReviewMsg = () => {
@@ -237,7 +235,7 @@ async function submitReview() {
 
     console.log(review);
     await fetch(
-      "http://localhost:3000/damp/api/SubmitCourseReview?id=" +
+      "api/SubmitCourseReview?id=" +
         id +
         "&review=" +
         review +
