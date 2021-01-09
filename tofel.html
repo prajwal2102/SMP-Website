@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="SMP Website IIT Dharwad" />
+    <meta name="keywords" content="IIT, IIT Dharwad, SMP, Student Mentorship, Dharwad, DAMP">
+
+    <link rel="icon" href="img/favicon.ico" />
+    <title>DAMP IIT Dharwad</title>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+
+    <meta name="google-signin-client_id"
+      content="858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com">
+  </head>
+
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area white-header">
+      <div class="main_menu">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h" href="index.html"><img
+                style="background-color:white;padding:5px;border-radius:5px;" src="img/logo.png" class="nav-logo" alt=""
+                width="100px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item submenu dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Courses </a>
+                  <ul class="dropdown-menu">
+                    <div class="dropdown-header ">Core</div>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreCSE"> Computer Science </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreEE"> Electrical </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreME"> Mechanical </a>
+                    </li>
+
+                    <div class="dropdown-header">Department Electives</div>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectCSE"> Computer
+                        Science </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectEE"> Electrical </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectME"> Mechanical </a>
+                    </li>
+
+                    <div class="dropdown-header">Other Electives</div>
+                    <li class="nav-item"><a class="nav-link dropdown-item" href="courses_Electives.html?type=HSS"> HSS
+                        Electives
+                      </a></li>
+                    <li class="nav-item"><a class="nav-link dropdown-item" href="courses_Electives.html?type=Institute">
+                        Institute
+                        Electives </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item submenu dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Exam Preparations</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="gate.html">GATE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gre.html">GRE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cat.html">CAT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="tofel.html">TOFEL</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="internships.html">Internships and Projects</a>
+                </li>
+
+                <li class="nav-item ">
+
+                  <div class="g-signin2 signIn-btn" id="signin-btn" data-onsuccess="onSignIn"></div>
+
+                  <div class="signOut-Btn" id="signout-btn" onclick="onSignOut()" style="display: none;">Sign Out</div>
+                </li>
+                <li class="nav-item    ">
+                  <a class="nav-link backtosmp" href="./../index.html">Go To SMP Website -> </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
+
+
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+      <div class="banner_inner d-flex align-items-center">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="banner_content text-center">
+                <h2>TOFEL</h2>
+                <!-- <div class="page_link">
+                  <a href="index.html">Home</a>
+                  <a href="single-blog.html">GATE</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================Blog Area =================-->
+    <section class="blog_area single-post-area section_gap">
+      <div class="container">
+        <div class="row">
+          <div class="posts-list">
+            <div class="single-post row">
+              <div class="col-lg-12">
+                <div class="feature-img">
+                  <!-- <img class="img-fluid" src="img/blog/feature-img1.jpg" alt=""> -->
+                </div>
+              </div>
+              <div style="margin: auto" class="col-lg-9 col-md-9 blog_details ">
+
+                <h2>Tips to prepare for TOFEL</h2>
+                <p class="excert">
+                  There’s no way around it, the more you practice, the higher you will score! But do you know how to
+                  make the best use of your time, money, energy and other resources as you prepare? </p>
+
+                <ol>
+                  <li><strong>Get to Know the TOEFL Format: </strong>
+                    <p>Surprises on the TOEFL are anything but fun. So before you take the exam, try to familiarize
+                      yourself with all of the basic features of the TOEFL and its scoring system. You should know what
+                      the TOEFL sections are, how these
+                      sections are arranged, how much time you’ll have on each section, and what kinds of questions and
+                      prompts you’ll get.</p>
+                    <p>By understanding how the TOEFL is structured, you’ll know exactly what to expect on test day and
+                      can thus prepare accordingly—and more confidently.</p>
+                  </li>
+                  <li><strong> Set a Goal Score: </strong>
+                    <p>To ensure you’ll have the best possible shot at getting accepted to the schools you’re applying
+                      to, you’ll need to set a TOEFL goal score. A goal score is any total score that meets all of your
+                      schools’ minimum required (or
+                      recommended) TOEFL scores.</p>
+                  </li>
+                  <li><strong>Give Yourself Ample Time to Prepare: </strong>
+                    <p>Before you register for the TOEFL, set aside ample time to prepare for the exam and hone your
+                      English-language skills. Three to six months of study time should generally suffice. However,
+                      exact time frames will vary depending on
+                      your English ability and the amount of time you can dedicate to studying.</p>
+                  </li>
+                  <li><strong>Choose an Early Test Date: </strong>
+                    <p>An early test date ensures that your TOEFL scores will get to your schools in time. TOEFL scores
+                      are sent automatically by mail to schools you selected during registration beginning 13 days after
+                      your test.</p>
+                    <p>However, the location of your school will determine how long it’ll take for your scores to
+                      arrive. Schools located within the US typically receive scores about 20-30 days after the test
+                      date, whereas schools located outside the
+                      US usually receive them six to eight weeks after the test.</p>
+                    <p>Therefore, if you’re applying to US schools, try to take the TOEFL no later than six weeks before
+                      your college application deadlines. If you’re applying to schools located outside the US, take the
+                      TOEFL no later than ten weeks
+                      before your deadlines.
+                    </p>
+                  </li>
+                  <li><strong> Improve Your Vocabulary: </strong>
+                    <p>To do well on the TOEFL, you need to have a high range of English vocabulary. Knowing different
+                      words allows you to more readily understand the English you read and hear, and gives you the tools
+                      to express yourself more clearly
+                      and effectively in speech and writing.</p>
+                    <p>Ultimately, the best way to study vocabulary is to use flashcards. You can either make your own
+                      paper cards or opt for digital cards. Anki is a free computer program you can use to create,
+                      download, and practice flashcards. It
+                      uses spaced-repetition software (SRS) to show you difficult cards more often than other cards.</p>
+                  </li>
+                  <li><strong>Answer Every Question: </strong>
+                    <p>Like the SAT, ACT, and GRE, there are no penalties for wrong answers on the TOEFL. In other
+                      words, if you answer a question incorrectly (or don’t answer it at all), you won’t lose any
+                      points. Therefore, you should always answer
+                      every question in a section to ensure you’ll have the best possible shot at getting the score you
+                      want.</p>
+                    <p>On the Reading and Listening sections, every multiple-choice question has four answer choices. So
+                      if you guessed on one, you’d have a 25 percent chance of getting it right.</p>
+                    <p>Ultimately, if you’re clueless as to how to answer a question or are running out of time, it’s
+                      far better to just guess (ideally, by using the process of elimination!) than to not answer at
+                      all.</p>
+                  </li>
+
+                  <li><strong>Read Complex Texts: </strong>
+                    <p>The best way to improve your reading ability is to read as many English-language texts as you
+                      can. By doing this, you’ll not only enhance your vocabulary and grammar knowledge, but you’ll also
+                      learn how arguments are structured
+                      and what ultimately makes them compelling to read.</p>
+                    <p>As you read, be sure you understand the main point of the text and what the author is trying to
+                      say. You should also be able to identify what kinds of transitions and organizational patterns the
+                      author uses in order to
+                      effectively present his or her thoughts.</p>
+                  </li>
+                </ol>
+
+              </div>
+              <div class="col-lg-12">
+                <div class="quotes">
+                  The DAMP team is doing it's best to keep you updated with all the material required for your exam
+                  preparation. This website is under construction and more data will be available soon. All the best :)
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+    </section>
+
+
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+      <div class="container">
+
+        <div class="row footer-bottom d-flex">
+          <p class=" footer-text" style="margin:auto;">
+
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script> All rights reserved | <a href="./../index.html">SMP IIT Dharwad</a>
+          </p>
+
+        </div>
+      </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/general.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/theme.js"></script>
+    <!--gmaps Js-->
+
+  </body>
+
+</html>

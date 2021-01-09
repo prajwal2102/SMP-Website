@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="SMP Website IIT Dharwad" />
+    <meta name="keywords" content="IIT, IIT Dharwad, SMP, Student Mentorship, Dharwad, DAMP">
+
+    <link rel="icon" href="img/favicon.ico" />
+    <title>DAMP IIT Dharwad</title>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+
+    <meta name="google-signin-client_id"
+      content="858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com">
+
+  </head>
+
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area white-header">
+      <div class="main_menu">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h" href="index.html"><img
+                style="background-color:white;padding:5px;border-radius:5px;" src="img/logo.png" class="nav-logo" alt=""
+                width="100px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item submenu dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Courses </a>
+                  <ul class="dropdown-menu">
+                    <div class="dropdown-header ">Core</div>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreCSE"> Computer Science </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreEE"> Electrical </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreME"> Mechanical </a>
+                    </li>
+
+                    <div class="dropdown-header">Department Electives</div>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectCSE"> Computer
+                        Science </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectEE"> Electrical </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectME"> Mechanical </a>
+                    </li>
+
+                    <div class="dropdown-header">Other Electives</div>
+                    <li class="nav-item"><a class="nav-link dropdown-item" href="courses_Electives.html?type=HSS"> HSS
+                        Electives
+                      </a></li>
+                    <li class="nav-item"><a class="nav-link dropdown-item" href="courses_Electives.html?type=Institute">
+                        Institute
+                        Electives </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item submenu dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Exam Preparations</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="gate.html">GATE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gre.html">GRE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cat.html">CAT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="tofel.html">TOFEL</a>
+                    </li>
+                  </ul>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="internships.html">Internships</a>
+                  </li>
+                </li>
+
+                <li class="nav-item ">
+
+                  <div class="g-signin2 signIn-btn" id="signin-btn" data-onsuccess="onSignIn"></div>
+
+                  <div class="signOut-Btn" id="signout-btn" onclick="onSignOut()" style="display: none;">Sign Out</div>
+                </li>
+                <li class="nav-item    ">
+                  <a class="nav-link backtosmp" href="./../index.html">Go To SMP Website -> </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
+
+    <!--================ Start Home Banner Area =================-->
+    <section class="home_banner_area">
+      <div class="banner_inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="banner_content text-center">
+
+                <h2 class="text-uppercase mt-4 mb-5 show-desk " style="color: white;">
+                  Department Academic Mentorship Program
+
+                </h2>
+                <h2 class="text-uppercase mt-4 mb-5 show-mob" style="color: white;">
+                  DAMP
+                </h2>
+                <p class="text-uppercase" style="color: white;">
+                  IIT Dharwad
+                </p>
+                <div>
+                  <a href="#intro" class="primary-btn2 mb-3 mb-sm-0">Learn More</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Home Banner Area =================-->
+    <!--================ Start Feature Area =================-->
+    <section class="feature_area section_gap_top" id="intro">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="main_title">
+              <h2 class="mb-3">Welcome!</h2>
+              <p>
+                The Department Academic Mentorship Program (DAMP) team at IIT Dharwad consists of exuberant and highly
+                motivated
+                students working towards providing the necessary help and guidance to all sophomores.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><span class="flaticon-student"></span></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">For Sophomore</h4>
+                <p>
+                  Damp will help you to cope up with your transition into your department.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><span class="flaticon-book"></span></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">Resolve Issues</h4>
+                <p>
+                  Damp will help you in academic as well as non academic issuses.
+
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="single_feature">
+              <div class="icon"><span class="flaticon-earth"></span></div>
+              <div class="desc">
+                <h4 class="mt-3 mb-2">Acadamic Suggestions</h4>
+                <p>
+                  Damp will try its best to help students with backlogs.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Feature Area =================-->
+    <!--================ Start Feature Area =================-->
+    <section class="feature_area ">
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="gen-block" style="max-width: 1024px;">
+            <div class="main_title">
+              <h2>Introduction</h2>
+            </div>
+
+            The Department Academic Mentorship Program (DAMP) aims to create a support system for students facing
+            academic as well
+            as personal difficulties. The DAMP also provides senior mentors to the sophomores entering the CSE, EE and
+            ME depatment.
+            The DAMP Team aims to provide easy access to information regarding courses offered by the departments,
+            research projects
+            being undertaken, internships and the like. We strive to maintain the curriculum’s relevance to the field in
+            co-ordination with faculty as well as the Department Council. Feel free to contact our team for any kind of
+            difficulties.
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================ End Feature Area =================-->
+
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+      <div class="container">
+
+        <div class="row footer-bottom d-flex">
+          <p class=" footer-text" style="margin:auto;">
+
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+              href="./../index.html">SMP IIT Dharwad</a>
+          </p>
+
+        </div>
+      </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="js/general.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/theme.js"></script>
+
+  </body>
+
+</html>

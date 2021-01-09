@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="SMP Website IIT Dharwad" />
+    <meta name="keywords" content="IIT, IIT Dharwad, SMP, Student Mentorship, Dharwad, DAMP">
+
+    <link rel="icon" href="img/favicon.ico" />
+    <title>DAMP IIT Dharwad</title>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+
+    <meta name="google-signin-client_id"
+      content="858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com">
+  </head>
+
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area white-header">
+      <div class="main_menu">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h" href="index.html"><img
+                style="background-color:white;padding:5px;border-radius:5px;" src="img/logo.png" class="nav-logo" alt=""
+                width="100px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item submenu dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Courses </a>
+                  <ul class="dropdown-menu">
+                    <div class="dropdown-header ">Core</div>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreCSE"> Computer Science </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreEE"> Electrical </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreME"> Mechanical </a>
+                    </li>
+
+                    <div class="dropdown-header">Department Electives</div>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectCSE"> Computer
+                        Science </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectEE"> Electrical </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectME"> Mechanical </a>
+                    </li>
+
+                    <div class="dropdown-header">Other Electives</div>
+                    <li class="nav-item"><a class="nav-link dropdown-item" href="courses_Electives.html?type=HSS"> HSS
+                        Electives
+                      </a></li>
+                    <li class="nav-item"><a class="nav-link dropdown-item" href="courses_Electives.html?type=Institute">
+                        Institute
+                        Electives </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item submenu dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Exam Preparations</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="gate.html">GATE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gre.html">GRE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cat.html">CAT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="tofel.html">TOFEL</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="internships.html">Internships and Projects</a>
+                </li>
+
+                <li class="nav-item ">
+
+                  <div class="g-signin2 signIn-btn" id="signin-btn" data-onsuccess="onSignIn"></div>
+
+                  <div class="signOut-Btn" id="signout-btn" onclick="onSignOut()" style="display: none;">Sign Out</div>
+                </li>
+                <li class="nav-item    ">
+                  <a class="nav-link backtosmp" href="./../index.html">Go To SMP Website -> </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
+
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+      <div class="banner_inner d-flex align-items-center">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="banner_content text-center">
+                <h2>CAT</h2>
+                <!-- <div class="page_link">
+                  <a href="index.html">Home</a>
+                  <a href="single-blog.html">GATE</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================Blog Area =================-->
+    <section class="blog_area single-post-area section_gap">
+      <div class="container">
+        <div class="row">
+          <div class="posts-list">
+            <div class="single-post row">
+              <div class="col-lg-12">
+                <div class="feature-img">
+                  <!-- <img class="img-fluid" src="img/blog/feature-img1.jpg" alt=""> -->
+                </div>
+              </div>
+              <div style="margin: auto" class="col-lg-9 col-md-9 blog_details ">
+
+                <h2>Tips to prepare for CAT</h2>
+                <p class="excert">
+                  CAT Exam (Common Admission Test) is a computer-based selection test conducted by the Indian Institutes
+                  of Management (IIMs) as a prerequisite for admissions to their business administration programs. </p>
+                <ol>
+                  <li><strong>Know Your Syllabus: </strong>
+                    <p>The topics for QA section are basically of class 10th level, and a few class 11 and 12 concepts.
+                      So mostly these are familiar topics. The topics are Algebra, Averages, Geometric Progression,
+                      Geometry, HCF & LCM, Inequalities,
+                      In-equations Quadratic and linear equations, Logarithms, Mensuration, Number system, Partnership
+                      (Accounts), Percentages, Profit & Loss, Ratios and Proportion, Surds and Indices,
+                      Time-Speed-Distance, Trigonometry, Work and time.
+                      Time Management – Time is of the essence in an exam like CAT. While practicing, it is important to
+                      note how much time you take while solving questions of a particular topic. QA has mostly single
+                      problems. Once you get an idea
+                      about how much time is needed for a specific type of question, time management during the exam
+                      time will be more comfortable.</p>
+                  </li>
+                  <li><strong>Work on Your Speed and Accuracy: </strong>
+                    <p>Once you master time the next step is working on your speed. The QA section is 40 minutes long
+                      with 34 questions. Your aim should be to solve the same question in a faster way. In addition to
+                      working on speed, accuracy is equally
+                      important. You should be able to answer QA questions with at least 85 to 90 percent accuracy.
+                    </p>
+                  </li>
+                  <li><strong>Work on Shortcuts: </strong>
+                    <p>Every question need not to wholly solved. Answers to some questions can be deduced using the
+                      option given. For example, in topics of algebra and numbers, you can find the answer by
+                      substituting the values given in options, and in
+                      other areas like progressions, surds, geometry, and logs, memorizing formulae and properties help.
+                      You can also remember tables, squares, and cubes for number up to 25</p>
+                  </li>
+                  <li><strong>Topics from Which Questions are asked: </strong>
+                    <p>The DI section is almost completely application-based, requiring knowledge as well as on-the-spot
+                      deduction. This section tests understanding of the given information (charts, graphs, case lets,
+                      etc.) and using the relevant data
+                      from the information given to answer the questions. It requires calculations as well as reasoning
+                      or interpreting the data visually. There are more data question types e.g. Venn diagrams, routes
+                      and networks, 3-d or spider charts,
+                      games and tournaments, etc. which appear in various exams, including CAT.</p>
+                  </li>
+                  <li><strong>Answer the Easy Questions: </strong>
+                    <p>In DI, look through all the sets and then begin attempting the set which seems familiar. Do not
+                      gauge the difficulty level of the set based on the data alone, have a look at the questions as
+                      well. It is quite possible that the
+                      same DI set may have 1-2 easy questions and 1-2 difficult questions. It makes sense to answer the
+                      easy questions out of the 3-4 questions, and increase the number of sets attempted using this
+                      strategy.
+
+                    </p>
+                  </li>
+
+
+
+                </ol>
+
+              </div>
+              <div class="col-lg-12">
+                <div class="quotes">
+                  The damp team is doing it's best to keep you updated with all the material required for your exam
+                  preparation. This website is under construction and more data will be available soon. All the best :)
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+    </section>
+
+
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+      <div class="container">
+
+        <div class="row footer-bottom d-flex">
+          <p class=" footer-text" style="margin:auto;">
+
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script> All rights reserved | <a href="./../index.html">SMP IIT Dharwad</a>
+          </p>
+
+        </div>
+      </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/general.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/theme.js"></script>
+    <!--gmaps Js-->
+
+  </body>
+
+</html>

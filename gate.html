@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="SMP Website IIT Dharwad" />
+    <meta name="keywords" content="IIT, IIT Dharwad, SMP, Student Mentorship, Dharwad, DAMP">
+
+    <link rel="icon" href="img/favicon.ico" />
+    <title>DAMP IIT Dharwad</title>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script> <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/themify-icons.css" />
+
+    <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mystyles.css" />
+
+    <meta name="google-signin-client_id"
+      content="858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com">
+  </head>
+
+  <body>
+    <!--================ Start Header Menu Area =================-->
+    <header class="header_area white-header">
+      <div class="main_menu">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand logo_h" href="index.html"><img
+                style="background-color:white;padding:5px;border-radius:5px;" src="img/logo.png" class="nav-logo" alt=""
+                width="100px" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+              <ul class="nav navbar-nav menu_nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item submenu dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false"> Courses </a>
+                  <ul class="dropdown-menu">
+                    <div class="dropdown-header ">Core</div>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreCSE"> Computer Science </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreEE"> Electrical </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses.html?type=coreME"> Mechanical </a>
+                    </li>
+
+                    <div class="dropdown-header">Department Electives</div>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectCSE"> Computer
+                        Science </a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectEE"> Electrical </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class=" nav-link dropdown-item" href="courses_Electives.html?type=DeptElectME"> Mechanical </a>
+                    </li>
+
+                    <div class="dropdown-header">Other Electives</div>
+                    <li class="nav-item"><a class="nav-link dropdown-item" href="courses_Electives.html?type=HSS"> HSS
+                        Electives
+                      </a></li>
+                    <li class="nav-item"><a class="nav-link dropdown-item" href="courses_Electives.html?type=Institute">
+                        Institute
+                        Electives </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item submenu dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">Exam Preparations</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a class="nav-link" href="gate.html">GATE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gre.html">GRE</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cat.html">CAT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="tofel.html">TOFEL</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="internships.html">Internships and Projects</a>
+                </li>
+
+                <li class="nav-item ">
+
+                  <div class="g-signin2 signIn-btn" id="signin-btn" data-onsuccess="onSignIn"></div>
+
+                  <div class="signOut-Btn" id="signout-btn" onclick="onSignOut()" style="display: none;">Sign Out</div>
+                </li>
+                <li class="nav-item    ">
+                  <a class="nav-link backtosmp" href="./../index.html">Go To SMP Website -> </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--================ End Header Menu Area =================-->
+
+
+    <!--================Home Banner Area =================-->
+    <section class="banner_area">
+      <div class="banner_inner d-flex align-items-center">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="banner_content text-center">
+                <h2>GATE</h2>
+                <!-- <div class="page_link">
+                  <a href="index.html">Home</a>
+                  <a href="single-blog.html">GATE</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--================End Home Banner Area =================-->
+
+    <!--================Blog Area =================-->
+    <section class="blog_area single-post-area section_gap">
+      <div class="container">
+        <div class="row">
+          <div class="posts-list">
+            <div class="single-post row">
+              <div class="col-lg-12">
+                <div class="feature-img">
+                  <!-- <img class="img-fluid" src="img/blog/feature-img1.jpg" alt=""> -->
+                </div>
+              </div>
+              <div style="margin: auto" class="col-lg-9 col-md-9 blog_details ">
+
+                <h2>Tips to prepare for GATE</h2>
+                <p class="excert">
+                  The GATE exam is created to test the knowledge and understanding of undergraduate students in various
+                  subjects of engineering and science. It is conducted by IISc and seven IIT’s jointly and is basically
+                  a gateway for post-graduate admissions in India and entry-level positions in Indian PSU’s.
+                </p>
+                <p>
+                  The GATE exam is held once every year, usually in February and the results are declared approximately
+                  a month later. Keeping this in mind, some of the tips to prepare for the next GATE exam are given as
+                  follows:
+                </p>
+                <ol>
+                  <li> <strong>Understand the GATE syllabus and pattern</strong><br>
+                    The first step in GATE preparation is understanding the GATE syllabus and pattern. This is necessary
+                    as the syllabus may differ a little each year and there might be minute changes in the pattern as
+                    well. Moreover, a thorough study plan cannot be created until the exam syllabus and pattern are
+                    known.<p></p>
+                  </li>
+                  <li> <strong>Find the books required according to the syllabus</strong><br>
+                    There are many recommended books available for all subjects of the GATE exam. Generally, two or
+                    three books are enough for a particular subject where one book can be used in the start and other
+                    books can be referred if any doubts arise.<p></p>
+                  </li>
+                  <li> <strong>Create a study plan for GATE preparation</strong><br>
+                    It is necessary to have a study plan for GATE preparation as it inculcates discipline and time
+                    management skills. It is best to create a unique study plan tailored to the strengths and weaknesses
+                    of the individual with the appropriate revision and evaluation slots.
+                  </li>
+                  <li> <strong>Focus on Aptitude and Mathematics as well</strong><br>
+                    It is very important to focus on Aptitude and Mathematics as they are quite scoring subjects and
+                    constitute around 30 marks in the GATE exam. These subjects can be studied from the standard
+                    recommended books and practiced with the help of the previous year GATE papers.
+                  </li>
+                  <li> <strong>Prepare notes on the relevant topics </strong><br>
+                    Preparing notes with the important information and formulae is vital as these notes can be referred
+                    later during revision. This cuts down on the revision time as the notes contain important
+                    information from all subjects in a single place.
+                  </li>
+                  <li> <strong>Strengthen your conceptual knowledge</strong><br>
+                    It is important to have conceptual clarity as GATE is an exam that tests the candidates’ concepts
+                    and has very little questions that have direct application of formulae. Also, understanding of the
+                    subject concepts can lead to the correct response in GATE if there are any doubts as to the answer.
+                    <p></p>
+                  </li>
+                  <li> <strong>Familiarize yourself with the virtual calculator </strong><br>
+                    The virtual calculator can be a little complicated and so it is important to familiarize yourself
+                    with it before the GATE exam. This can result in an increase in calculation speed which is very
+                    advantageous in a competitive exam like GATE.<p></p>
+                  </li>
+                  <li> <strong>Evaluate your understanding of a topic after studying it</strong><br>
+                    It is very important to evaluate your understanding of a topic after studying it. This will reveal
+                    the weak points in your preparation that can then be eliminated. Moreover, self-evaluation also
+                    helps in retaining the knowledge that you have learnt.<p></p>
+                  </li>
+                  <li> <strong>Revise the topics at suitable intervals</strong><br>
+                    After understanding a topic thoroughly, it is important to revise it at suitable intervals otherwise
+                    there is a chance of forgetting it. Revision can be done using the short notes or flash cards made
+                    during studying.<p></p>
+                  </li>
+                  <li> <strong>Analyze previous GATE papers and attempt multiple mock tests</strong><br>
+                    Analyzing and attempting previous GATE papers and GATE mock tests is an excellent way of
+                    understanding the GATE structure in a controlled environment. This also helps in improving time
+                    management skills and reduces silly mistakes in the actual GATE exam.<p></p>
+                  </li>
+                </ol>
+
+              </div>
+              <div class="col-lg-12">
+                <div class="quotes">
+                  The damp team is doing it's best to keep you updated with all the material required for your exam
+                  preparation. This website is under construction and more data will be available soon. All the best :)
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+    </section>
+
+
+    <!--================ Start footer Area  =================-->
+    <footer class="footer-area section_gap">
+      <div class="container">
+
+        <div class="row footer-bottom d-flex">
+          <p class=" footer-text" style="margin:auto;">
+
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script> All rights reserved | <a href="./../index.html">SMP IIT Dharwad</a>
+          </p>
+
+        </div>
+      </div>
+    </footer>
+    <!--================ End footer Area  =================-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/general.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/theme.js"></script>
+    <!--gmaps Js-->
+
+  </body>
+
+</html>
