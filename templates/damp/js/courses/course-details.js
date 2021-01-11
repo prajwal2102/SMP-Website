@@ -7,7 +7,7 @@ geturlparm = (varia) => {
   return code;
 };
 
-toggleShow = (name, email, time, review) => {
+toggleShow = (comment_id, name, email, time, review) => {
   var id = geturlparm("id");
 
   fetch(
@@ -18,7 +18,9 @@ toggleShow = (name, email, time, review) => {
       "&review=" +
       review +
       "&time=" +
-      time
+      time +
+      "&comment_id=" +
+      comment_id
   )
     .then((res) => {
       return res.json();
@@ -31,7 +33,7 @@ toggleShow = (name, email, time, review) => {
     });
 };
 
-deleteShow = (name, email, time, review) => {
+deleteShow = (comment_id, name, email, time, review) => {
   var id = geturlparm("id");
 
   fetch(
@@ -42,7 +44,9 @@ deleteShow = (name, email, time, review) => {
       "&review=" +
       review +
       "&time=" +
-      time
+      time +
+      "&comment_id=" +
+      comment_id
   )
     .then((res) => {
       return res.json();
@@ -67,7 +71,7 @@ getcoursedetails = () => {
     .then((item) => {
       if (item.res_status == "FOUND") {
         var role = item.role;
-        console.log(item);
+        
         item = item.data[0];
 
         document.getElementById("coursecode").innerHTML = item.courseCode;
@@ -86,7 +90,7 @@ getcoursedetails = () => {
         document.getElementById("need").innerHTML = item.need;
         if (type == "Elect") {
           item.reviews.map((review, i) => {
-            console.log(review.imgUrl);
+            
             if (role == "admin") {
               document.getElementById("course-reviews").innerHTML +=
                 `
@@ -125,6 +129,8 @@ getcoursedetails = () => {
                 `</span><div>
                         <span style="margin: 3%;">
                           <button class="reviewtoggleBtn" onClick="toggleShow( '` +
+                review.id +
+                `','` +
                 review.name +
                 `','` +
                 review.email +
@@ -137,6 +143,8 @@ getcoursedetails = () => {
                         </span>
                         <span style="margin: 3%;">
                           <button class="reviewtoggleBtnDelete" onClick="deleteShow( '` +
+                review.id +
+                `','` +
                 review.name +
                 `','` +
                 review.email +
@@ -215,8 +223,8 @@ getcoursedetails = () => {
 
 getcoursedetails();
 
-var auth2 = gapi.auth2.getAuthInstance();
-auth2.currentUser.listen(getcoursedetails);
+var auth = gapi.auth2.getAuthInstance();
+auth.currentUser.listen(getcoursedetails);
 
 clearReviewMsg = () => {
   document.getElementById("review-msg").innerHTML = "";
@@ -233,7 +241,7 @@ async function submitReview() {
     var email = profile.getEmail();
     var img_url = profile.getImageUrl();
 
-    console.log(review);
+    
     await fetch(
       "api/SubmitCourseReview?id=" +
         id +

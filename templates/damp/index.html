@@ -13,8 +13,22 @@
     <link rel="icon" href="img/favicon.ico" />
     <title>DAMP IIT Dharwad</title>
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+    <script>
+      window.onLoadCallback = function () {
+        gapi.auth2.init({
+          client_id: '858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com'
+        });
+      }
+    </script>
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+    <script>
+      window.onLoadCallback = function () {
+        gapi.auth2.init({
+          client_id: '858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com'
+        });
+      }
+    </script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
@@ -110,6 +124,9 @@
                       <a class="nav-link" href="tofel.html">TOFEL</a>
                     </li>
                   </ul>
+                <li class="nav-item ">
+                  <a class="nav-link" href="internships.html">Internships and Projects</a>
+                </li>
                 </li>
 
                 <li class="nav-item ">

@@ -1,10 +1,6 @@
 function onSignIn(googleUser) {
   var profile = googleUser.getBasicProfile();
-  
-  console.log("Email: " + profile.getEmail()); // This is null if the 'email' scope is not present.
-  
   if (profile.getEmail().slice(-11) === "iitdh.ac.in") {
-    console.log("iitdh");
     localStorage.setItem("email", profile.getEmail());
   } else {
     onSignOut();

@@ -13,7 +13,8 @@
     <link rel="icon" href="img/favicon.ico" />
     <title>DAMP IIT Dharwad</title>
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script> <!-- Bootstrap CSS -->
+    
+     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/themify-icons.css" />
@@ -106,6 +107,9 @@
                       <a class="nav-link" href="tofel.html">TOFEL</a>
                     </li>
                   </ul>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="internships.html">Internships and Projects</a>
                 </li>
 
                 <li class="nav-item ">
@@ -221,7 +225,7 @@
           </form>
           <div id="course-reviews" style="width:100%;max-height: 2000px;
     overflow: auto;">
-            
+
           </div>
 
         </div>
@@ -246,7 +250,14 @@
     </footer>
     <!--================ End footer Area  =================-->
 
-
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" ></script>
+    <script>
+      window.onLoadCallback = function () {
+        gapi.auth2.init({
+          client_id: '858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com'
+        });
+      }
+    </script>
     <script src="js/general.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

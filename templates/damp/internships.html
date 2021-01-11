@@ -13,7 +13,14 @@
     <link rel="icon" href="img/favicon.ico" />
     <title>DAMP IIT Dharwad</title>
 
-    <script src="https://apis.google.com/js/platform.js" async defer></script> <!-- Bootstrap CSS -->
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+    <script>
+      window.onLoadCallback = function () {
+        gapi.auth2.init({
+          client_id: '858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com'
+        });
+      }
+    </script> <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/themify-icons.css" />
@@ -22,12 +29,10 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mystyles.css" />
-
-    <meta name="google-signin-client_id"
-      content="858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com">
+    <meta name="google-signin-client_id" content="858578974233-qcglqvji2rc12vnjgrk2l7jlvjvhn3pm.apps.googleusercontent.com">
   </head>
 
-  <body>
+  <body style="background-color:  #f7f7f7;">
     <!--================ Start Header Menu Area =================-->
     <header class="header_area white-header">
       <div class="main_menu">
@@ -131,18 +136,17 @@
 
 
     <!--================Home Banner Area =================-->
-    <section id="course-banner" class="banner_area">
+    <section class="banner_area">
       <div class="banner_inner d-flex align-items-center">
         <div class="overlay"></div>
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="banner_content text-center">
-                <h2 id="branchName">Computer Science</h2>
+                <h2>Internships and Projects</h2>
                 <div class="page_link">
-                  <a href="index.html">Home</a>
-                  / Courses
-
+                  <a href="index.html">Home</a> /
+                  Internships and Projects
                 </div>
               </div>
             </div>
@@ -152,42 +156,74 @@
     </section>
     <!--================End Home Banner Area =================-->
 
-    <!--================ Start Popular Courses Area =================-->
-    <div class="popular_courses " style="padding-top: 50px;">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-5">
-            <div class="main_title">
-              <h2 class="mb-3">Courses</h2>
-              <p style="display: inline;">
-              <div id="typeCourse" style="display: inline;">
-                Courses
+    <!--================ Start Course Details Area =================-->
+    <section class="course_details_area ">
+      <div class="container gen-block-container">
+        <div class="row">
+          <div class=" course_details_left">
+            <h1 style="text-align: center;" id="courseName">
+            </h1>
+            <div class="content_wrapper">
+              <div class="internship-details">
+                <h2>Computer Science</h2>
+                <br>
+                <h4>Internships</h4>
+                <p><a
+                    href="https://docs.google.com/spreadsheets/d/11KU4p2SpkTySFJFk1z9gKmRwHS1uZ5trzE_pX_fspss/edit?usp=sharing">Internship
+                    Details</a></p>
+                <p><a href="https://forms.gle/4yTywitDFb6G7AQo6">Add Internship</a></p>
+                <h4>Projects</h4>
+                <p><a
+                    href="https://docs.google.com/spreadsheets/d/1idWolsrFyq-NktWRgXjCRD55qhTwGfT59wyXC1_wujc/edit?usp=sharing">Projects</a>
+                </p>
+                <p><a href="https://forms.gle/cK1KPkCntuTCTfQZA">Add Project details</a></p>
+
               </div>
-              in
-              <div style="display: inline;" id="branchName1">
-                Computer Science
+
+              <hr class="style6">
+
+
+              <div class="internship-details">
+                <h2>Electrical Engineering</h2>
+                <br>
+                <h4>Internships</h4>
+                <p><a
+                    href="https://docs.google.com/spreadsheets/d/11vK3HgA4fdGE_QYgYevjLWmxu-5RiWqv-ecBdmsdsz8/edit?usp=sharing">Internship
+                    Details</a></p>
+                <p><a href="https://forms.gle/pFGpcnEGQZ4ZsjCm7">Add Internship</a></p>
+                <h4>Projects</h4>
+                <p><a
+                    href="https://docs.google.com/spreadsheets/d/1FbcyBzA6JKUYGE1lWkgDI3BZjKk_b1xsQlFPW_iZcZw/edit?usp=sharing">Projects</a>
+                </p>
+                <p><a href="https://forms.gle/wpc4eKtVdhpicceZ6">Add Project details</a></p>
+
               </div>
-              at IIT Dharwad
-              </p>
+              <hr class="style6">
+
+
+              <div class="internship-details">
+                <h2>Mechanical Engineering</h2>
+                <br>
+                <h4>Internships</h4>
+                <p><a
+                    href="https://docs.google.com/spreadsheets/d/1uC9DSjNeCvcF0JFTmx0es8rhgkX1QuCZ2_sWH_lSA5A/edit?usp=sharing">Internship
+                    Details</a></p>
+                <p><a href="https://forms.gle/rEpK3Yo2aaWy6LSx6">Add Internship</a></p>
+                <h4>Projects</h4>
+                <p><a
+                    href="https://docs.google.com/spreadsheets/d/1qq1hM_261x_ioAjIcMaMzQ8R502hUTZtkNradXt57Vw/edit?usp=sharing">Projects</a>
+                </p>
+                <p><a href="https://forms.gle/4cvWPRPoazBBJFhu9">Add Project details</a></p>
+
+
+
+              </div>
+
 
             </div>
           </div>
-        </div>
-
-        <div id="courses">
-
-        </div>
-        <div id="autumn-Courses">
-
-        </div>
-        <div id="spring-Courses">
-
-        </div>
-
-        <br>
-      </div>
-    </div>
-    <!--================ End Popular Courses Area =================-->
+    </section>
+    <!--================ End Course Details Area =================-->
 
     <!--================ Start footer Area  =================-->
     <footer class="footer-area section_gap">
@@ -197,8 +233,9 @@
           <p class=" footer-text" style="margin:auto;">
 
             Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
-              href="./../index.html">SMP IIT Dharwad</a>
+            <script>
+              document.write(new Date().getFullYear());
+            </script> All rights reserved | <a href="./../index.html">SMP IIT Dharwad</a>
           </p>
 
         </div>
@@ -206,7 +243,7 @@
     </footer>
     <!--================ End footer Area  =================-->
 
-    <script src="js/courses/courses_Electives.js"></script>
+
     <script src="js/general.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -214,7 +251,7 @@
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/theme.js"></script>
 
-
+    <script src="js/courses/course-details.js"></script>
   </body>
 
 </html>

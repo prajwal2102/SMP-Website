@@ -3,7 +3,8 @@ import json
 from flask_cors import CORS
 from datetime import datetime
 import pytz
-
+import random
+import string
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -139,6 +140,8 @@ def CourseReview():
                 if str(course_id) == str(data[item_no]['_id']['$oid']):
 
                     new_data = {
+                        "id":''.join(random.choices(string.ascii_uppercase +
+                             string.digits, k = 16)) ,
                         "name": name,
                         "email": email,
                         "review": new_review,
@@ -161,6 +164,7 @@ def toggleComment():
     review = request.args.get('review')
     email = request.args.get('email')
     time = request.args.get('time')
+    comment_id = request.args.get('comment_id')
 
     files = ['HSS_Electives.json', 'Institute_Electives.json',
              'ME_Dept_Electives.json', 'CSE_Dept_Electives.json', 'EE_Dept_Electives.json']
@@ -175,9 +179,8 @@ def toggleComment():
             for item_no in range(len(data)):
                 
                 if str(course_id) == str(data[item_no]['_id']['$oid']):
-                    print(data[item_no]['_id']['$oid'])
                     for eachReviewNo in range(len(data[item_no]['reviews'])):
-                        if review == data[item_no]['reviews'][eachReviewNo]['review'] and email == data[item_no]['reviews'][eachReviewNo]['email'] and str(time) == data[item_no]['reviews'][eachReviewNo]['time'][:-1]:
+                        if str(comment_id) == data[item_no]['reviews'][eachReviewNo]['id']:
                             data[item_no]['reviews'][eachReviewNo]['show'] = not data[item_no]['reviews'][eachReviewNo]['show']
                             stat = True
                             f = open(i, 'w', encoding="utf8")
@@ -193,6 +196,7 @@ def deleteComment():
     review = request.args.get('review')
     email = request.args.get('email')
     time = request.args.get('time')
+    comment_id = request.args.get('comment_id')
 
 
     files = ['HSS_Electives.json', 'Institute_Electives.json',
@@ -204,13 +208,10 @@ def deleteComment():
             f = open(i, 'r', encoding="utf8")
             data = json.loads(f.read())
             f.close()
-
             for item_no in range(len(data)):
-
                 if str(course_id) == str(data[item_no]['_id']['$oid']):
-                    print(data[item_no]['_id']['$oid'])
                     for eachReviewNo in range(len(data[item_no]['reviews'])):
-                        if review == data[item_no]['reviews'][eachReviewNo]['review'] and email == data[item_no]['reviews'][eachReviewNo]['email'] and str(time) == data[item_no]['reviews'][eachReviewNo]['time'][:-1]:
+                        if str(comment_id) == data[item_no]['reviews'][eachReviewNo]['id']:
                             data[item_no]['reviews'].pop(eachReviewNo)
                             stat = True
                             f = open(i, 'w', encoding="utf8")

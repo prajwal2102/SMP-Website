@@ -259,14 +259,18 @@
   overflow: auto;
 }
 .reviewer-img-parent {
+  display: inline-block;
+  vertical-align: top;
 }
 .reviewer-img {
   width: 50px;
   border-radius: 50%;
   margin: 0px 7px;
+  
 }
 .reviewer-name-parent {
   margin: 0px 10px;
+  display: inline-block;
 }
 
 .reviewtoggleBtn {
@@ -277,26 +281,25 @@
   border: solid;
   border-color: #fdc632;
   font-weight: 500;
-
 }
 
-.reviewtoggleBtn:hover{
+.reviewtoggleBtn:hover {
   background-color: white;
   transform: scale(1.1);
 }
 
-.reviewtoggleBtnDelete{
-    padding: 5px 15px;
-    border-radius: 15px;
-    background-color: red;
-    cursor: pointer;
-    border: solid;
-    border-color: red;
-    font-weight: 500;
-    color: white;
+.reviewtoggleBtnDelete {
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: red;
+  cursor: pointer;
+  border: solid;
+  border-color: red;
+  font-weight: 500;
+  color: white;
 }
-.reviewtoggleBtnDelete:hover{
-      background-color: white;
-    transform: scale(1.1);
-    color: black;
+.reviewtoggleBtnDelete:hover {
+  background-color: white;
+  transform: scale(1.1);
+  color: black;
 }
